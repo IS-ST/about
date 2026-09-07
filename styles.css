@@ -491,7 +491,6 @@ a:focus-visible {
 
 a.work-card:hover {
   border-color: var(--teal);
-  transform: translateY(-2px);
   color: inherit;
 }
 
