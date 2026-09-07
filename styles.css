@@ -457,6 +457,25 @@ a:focus-visible {
   scroll-snap-stop: always;
 }
 
+.carousel--reviews .carousel__track {
+  align-items: stretch;
+}
+
+.carousel--reviews .carousel__slide {
+  scroll-snap-stop: normal;
+}
+
+.carousel--reviews .review {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 14rem;
+}
+
+.carousel--reviews .review p {
+  flex: 1 1 auto;
+}
+
 .carousel__dots {
   display: flex;
   flex-wrap: wrap;

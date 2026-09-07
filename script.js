@@ -54,13 +54,26 @@
 
     if (!viewport || !track || slides.length === 0) return;
 
+    const gap = 16;
+    const configuredPageSize = parseInt(root.getAttribute("data-carousel-page-size"), 10);
+    let pageSize = configuredPageSize > 0 ? configuredPageSize : 1;
     let index = 0;
     let scrolling = false;
-    const gap = 16;
-    const showDots = dotsWrap && slides.length <= 12;
+    const showDots = dotsWrap && slides.length <= 12 && pageSize === 1;
+
+    function visiblePageSize() {
+      if (configuredPageSize > 1 && window.matchMedia("(max-width: 720px)").matches) {
+        return 1;
+      }
+      return configuredPageSize > 0 ? configuredPageSize : 1;
+    }
 
     function setSlideSizes() {
-      const width = Math.round(viewport.clientWidth);
+      pageSize = visiblePageSize();
+      const width = Math.max(
+        1,
+        Math.floor((viewport.clientWidth - gap * (pageSize - 1)) / pageSize)
+      );
       slides.forEach(function (slide) {
         slide.style.flex = "0 0 " + width + "px";
         slide.style.width = width + "px";
@@ -69,10 +82,25 @@
       return width;
     }
 
+    function maxIndex() {
+      return Math.max(0, slides.length - pageSize);
+    }
+
+    function snapIndex(value) {
+      const max = maxIndex();
+      const snapped = Math.round(value / pageSize) * pageSize;
+      return Math.min(Math.max(0, snapped), max);
+    }
+
     function updateChrome() {
       if (prevBtn) prevBtn.disabled = index <= 0;
-      if (nextBtn) nextBtn.disabled = index >= slides.length - 1;
-      if (positionEl) positionEl.textContent = String(index + 1);
+      if (nextBtn) nextBtn.disabled = index >= maxIndex();
+
+      if (positionEl) {
+        const start = index + 1;
+        const end = Math.min(index + pageSize, slides.length);
+        positionEl.textContent = pageSize > 1 ? start + "–" + end : String(start);
+      }
       if (totalEl) totalEl.textContent = String(slides.length);
 
       if (!dotsWrap) return;
@@ -97,9 +125,8 @@
     }
 
     function goTo(nextIndex, instant) {
-      const max = slides.length - 1;
-      index = Math.min(Math.max(0, nextIndex), max);
       const width = setSlideSizes();
+      index = snapIndex(nextIndex);
       scrolling = true;
       viewport.scrollTo({
         left: index * (width + gap),
@@ -113,11 +140,12 @@
 
     function syncFromScroll() {
       if (scrolling) return;
-      const width = viewport.clientWidth;
+      const width = setSlideSizes();
       if (width <= 0) return;
       const next = Math.round(viewport.scrollLeft / (width + gap));
-      if (next !== index) {
-        index = Math.min(Math.max(0, next), slides.length - 1);
+      const snapped = snapIndex(next);
+      if (snapped !== index) {
+        index = snapped;
         updateChrome();
       }
     }
@@ -125,14 +153,14 @@
     if (prevBtn) {
       prevBtn.addEventListener("click", function (event) {
         event.preventDefault();
-        goTo(index - 1);
+        goTo(index - pageSize);
       });
     }
 
     if (nextBtn) {
       nextBtn.addEventListener("click", function (event) {
         event.preventDefault();
-        goTo(index + 1);
+        goTo(index + pageSize);
       });
     }
 
@@ -159,9 +187,13 @@
     const section = document.getElementById("reviews");
     if (!track) return;
 
-    if (countEl) countEl.textContent = String(reviews.length);
+    const sorted = reviews.slice().sort(function (a, b) {
+      return String(b.text || "").length - String(a.text || "").length;
+    });
 
-    const html = reviews
+    if (countEl) countEl.textContent = String(sorted.length);
+
+    const html = sorted
       .map(function (review) {
         const name = escapeHtml(review.name || "Client");
         const store = escapeHtml(review.store || "");
