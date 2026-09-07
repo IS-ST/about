@@ -44,107 +44,93 @@
     if (!viewport || !track || slides.length === 0) return;
 
     let index = 0;
-    let pageSize = 1;
+    let scrolling = false;
+    const gap = 16;
 
-    function measure() {
-      const slideWidth = slides[0].getBoundingClientRect().width;
-      const gap = parseFloat(getComputedStyle(track).gap) || 0;
-      const viewportWidth = viewport.getBoundingClientRect().width;
-      pageSize = Math.max(
-        1,
-        Math.floor((viewportWidth + gap) / (slideWidth + gap))
-      );
-      const maxIndex = Math.max(0, slides.length - pageSize);
-      if (index > maxIndex) index = maxIndex;
-      render();
+    function setSlideSizes() {
+      const width = Math.round(viewport.clientWidth);
+      slides.forEach(function (slide) {
+        slide.style.flex = "0 0 " + width + "px";
+        slide.style.width = width + "px";
+      });
+      track.style.gap = gap + "px";
+      return width;
     }
 
-    function renderDots() {
+    function stride() {
+      return setSlideSizes() + gap;
+    }
+
+    function updateChrome() {
+      if (prevBtn) prevBtn.disabled = index <= 0;
+      if (nextBtn) nextBtn.disabled = index >= slides.length - 1;
+
       if (!dotsWrap) return;
-      const pages = Math.max(1, slides.length - pageSize + 1);
       dotsWrap.innerHTML = "";
-      for (let i = 0; i < pages; i += 1) {
+      slides.forEach(function (_slide, i) {
         const dot = document.createElement("button");
         dot.type = "button";
         dot.className = "carousel__dot" + (i === index ? " is-active" : "");
         dot.setAttribute("aria-label", "Go to slide " + (i + 1));
         dot.addEventListener("click", function () {
-          index = i;
-          render();
+          goTo(i);
         });
         dotsWrap.appendChild(dot);
+      });
+    }
+
+    function goTo(nextIndex, instant) {
+      const max = slides.length - 1;
+      index = Math.min(Math.max(0, nextIndex), max);
+      const width = setSlideSizes();
+      scrolling = true;
+      viewport.scrollTo({
+        left: index * (width + gap),
+        behavior: instant || reduceMotion ? "auto" : "smooth",
+      });
+      updateChrome();
+      window.setTimeout(function () {
+        scrolling = false;
+      }, reduceMotion ? 0 : 500);
+    }
+
+    function syncFromScroll() {
+      if (scrolling) return;
+      const width = viewport.clientWidth;
+      if (width <= 0) return;
+      const next = Math.round(viewport.scrollLeft / (width + gap));
+      if (next !== index) {
+        index = Math.min(Math.max(0, next), slides.length - 1);
+        updateChrome();
       }
     }
 
-    function render() {
-      const slideWidth = slides[0].getBoundingClientRect().width;
-      const gap = parseFloat(getComputedStyle(track).gap) || 0;
-      const maxIndex = Math.max(0, slides.length - pageSize);
-      index = Math.min(Math.max(0, index), maxIndex);
-      const offset = index * (slideWidth + gap);
-      track.style.transform = "translateX(-" + offset + "px)";
-      if (prevBtn) prevBtn.disabled = index <= 0;
-      if (nextBtn) nextBtn.disabled = index >= maxIndex;
-      renderDots();
-    }
-
     if (prevBtn) {
-      prevBtn.addEventListener("click", function () {
-        index -= 1;
-        render();
+      prevBtn.addEventListener("click", function (event) {
+        event.preventDefault();
+        goTo(index - 1);
       });
     }
 
     if (nextBtn) {
-      nextBtn.addEventListener("click", function () {
-        index += 1;
-        render();
+      nextBtn.addEventListener("click", function (event) {
+        event.preventDefault();
+        goTo(index + 1);
       });
     }
 
-    let startX = 0;
-    let deltaX = 0;
-    let dragging = false;
+    viewport.addEventListener("scroll", syncFromScroll, { passive: true });
 
-    viewport.addEventListener(
-      "pointerdown",
-      function (event) {
-        dragging = true;
-        startX = event.clientX;
-        deltaX = 0;
-        viewport.setPointerCapture(event.pointerId);
-      },
-      { passive: true }
-    );
+    let resizeTimer = 0;
+    window.addEventListener("resize", function () {
+      window.clearTimeout(resizeTimer);
+      resizeTimer = window.setTimeout(function () {
+        goTo(index, true);
+      }, 100);
+    });
 
-    viewport.addEventListener(
-      "pointermove",
-      function (event) {
-        if (!dragging) return;
-        deltaX = event.clientX - startX;
-      },
-      { passive: true }
-    );
-
-    function endDrag(event) {
-      if (!dragging) return;
-      dragging = false;
-      try {
-        viewport.releasePointerCapture(event.pointerId);
-      } catch (err) {
-        /* ignore */
-      }
-      if (Math.abs(deltaX) > 40) {
-        index += deltaX < 0 ? 1 : -1;
-        render();
-      }
-    }
-
-    viewport.addEventListener("pointerup", endDrag);
-    viewport.addEventListener("pointercancel", endDrag);
-
-    window.addEventListener("resize", measure);
-    measure();
+    setSlideSizes();
+    updateChrome();
   }
 
   document.querySelectorAll("[data-carousel]").forEach(initCarousel);

@@ -136,12 +136,9 @@ a:focus-visible {
   font-weight: 600;
 }
 
-/* Hero */
+/* Hero — same padding as .section; no viewport centering */
 .hero {
   position: relative;
-  min-height: calc(100vh - 3.5rem);
-  display: grid;
-  align-items: center;
   border-top: 0;
   overflow: hidden;
   isolation: isolate;
@@ -432,7 +429,17 @@ a:focus-visible {
 }
 
 .carousel__viewport {
-  overflow: hidden;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  touch-action: pan-x;
+}
+
+.carousel__viewport::-webkit-scrollbar {
+  display: none;
 }
 
 .carousel__track {
@@ -441,17 +448,13 @@ a:focus-visible {
   padding: 0;
   display: flex;
   gap: 1rem;
-  transition: transform 0.45s var(--ease);
-  will-change: transform;
 }
 
 .carousel__slide {
-  flex: 0 0 min(100%, 22rem);
+  flex: 0 0 auto;
   min-width: 0;
-}
-
-.carousel--reviews .carousel__slide {
-  flex-basis: min(100%, 34rem);
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
 }
 
 .carousel__dots {
@@ -492,11 +495,20 @@ a.work-card:hover {
   color: inherit;
 }
 
-.work-card img {
-  width: 100%;
+.work-card__media {
+  position: relative;
   aspect-ratio: 16 / 10;
-  object-fit: cover;
-  background: var(--paper-deep);
+  background:
+    linear-gradient(160deg, var(--paper-deep), rgba(255, 255, 255, 0.7));
+}
+
+.work-card__media img {
+  position: absolute;
+  inset: clamp(0.75rem, 2vw, 1.25rem);
+  width: calc(100% - 2 * clamp(0.75rem, 2vw, 1.25rem));
+  height: calc(100% - 2 * clamp(0.75rem, 2vw, 1.25rem));
+  object-fit: contain;
+  object-position: center;
 }
 
 .work-card__body {
@@ -655,15 +667,11 @@ a.work-card:hover {
 
 .reveal {
   opacity: 0;
-  transform: translateY(1.5rem);
-  transition:
-    opacity 0.75s var(--ease),
-    transform 0.75s var(--ease);
+  transition: opacity 0.75s var(--ease);
 }
 
 .reveal.is-visible {
   opacity: 1;
-  transform: none;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -676,11 +684,14 @@ a.work-card:hover {
   .hero__headline,
   .hero__support,
   .hero__ctas,
-  .reveal,
-  .carousel__track {
+  .reveal {
     opacity: 1;
     transform: none;
     transition: none;
+  }
+
+  .carousel__viewport {
+    scroll-behavior: auto;
   }
 
   .btn:hover,
@@ -702,14 +713,5 @@ a.work-card:hover {
   .expertise__list li {
     grid-template-columns: 1fr;
     gap: 0.25rem;
-  }
-
-  .hero {
-    min-height: auto;
-  }
-
-  .carousel__slide,
-  .carousel--reviews .carousel__slide {
-    flex-basis: 100%;
   }
 }
