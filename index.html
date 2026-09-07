@@ -1,9 +1,231 @@
 <!DOCTYPE html>
-<html>
-  <head></head>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Ivan Seleznev — Senior Shopify Theme Developer with 10+ years of experience and 700+ stores shipped. Theme development, Liquid, JavaScript, and Shopify 2.0."
+    />
+    <title>Ivan Seleznev · Senior Shopify Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Outfit:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header class="site-header">
+      <a class="logo" href="#top">Ivan Seleznev</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="brand-name">
+        <div class="hero__atmosphere" aria-hidden="true"></div>
+        <div class="hero__content">
+          <p class="hero__eyebrow">Storetasker Expert · Novi Sad</p>
+          <h1 id="brand-name" class="hero__brand">Ivan Seleznev</h1>
+          <p class="hero__headline">Senior Shopify Theme Developer</p>
+          <p class="hero__support">
+            10+ years building, customizing, and optimizing Shopify storefronts —
+            work across <strong>700+ stores</strong>, from precise fixes to full theme
+            rebuilds.
+          </p>
+          <div class="hero__ctas">
+            <a class="btn btn--primary" href="mailto:drummer605@gmail.com"
+              >Email me</a
+            >
+            <a
+              class="btn btn--ghost"
+              href="https://www.storetasker.com/experts/ivan-seleznev"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Storetasker</a
+            >
+            <a
+              class="btn btn--ghost"
+              href="https://www.linkedin.com/in/ivan-seleznev-b647b3423"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about reveal">
+        <div class="section__inner">
+          <h2 class="section__title">About</h2>
+          <p class="section__lead">
+            Senior Shopify developer focused on themes that perform and convert.
+          </p>
+          <p>
+            I specialize in theme development with Liquid, JavaScript, HTML, and CSS —
+            plus performance optimization, app integrations, and scalable eCommerce
+            solutions tailored to business goals. I work the full lifecycle: turning
+            design concepts into responsive, high-performing storefronts, troubleshooting
+            complex issues, and refining conversion-focused experiences. Known for fast
+            delivery, clean implementation, and reliable collaboration.
+          </p>
+        </div>
+      </section>
+
+      <section id="expertise" class="section expertise reveal">
+        <div class="section__inner">
+          <h2 class="section__title">Expertise</h2>
+          <p class="section__lead">
+            Practical Shopify craft — reusable, merchant-friendly, built to ship.
+          </p>
+          <ul class="expertise__list">
+            <li>
+              <span class="expertise__label">Theme rebuilds</span>
+              <span class="expertise__desc"
+                >Layouts from designs or briefs into responsive storefronts</span
+              >
+            </li>
+            <li>
+              <span class="expertise__label">Shopify 2.0</span>
+              <span class="expertise__desc"
+                >Sections, blocks, and Online Store 2.0 architecture</span
+              >
+            </li>
+            <li>
+              <span class="expertise__label">Liquid &amp; JavaScript</span>
+              <span class="expertise__desc"
+                >Custom functionality and flows matched to merchant needs</span
+              >
+            </li>
+            <li>
+              <span class="expertise__label">Performance</span>
+              <span class="expertise__desc"
+                >Faster storefronts and conversion-minded UX improvements</span
+              >
+            </li>
+            <li>
+              <span class="expertise__label">App integrations</span>
+              <span class="expertise__desc"
+                >Connecting apps and platform features within real constraints</span
+              >
+            </li>
+            <li>
+              <span class="expertise__label">Reusable solutions</span>
+              <span class="expertise__desc"
+                >Customizable builds that non-technical users can manage</span
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="experience" class="section experience reveal">
+        <div class="section__inner">
+          <h2 class="section__title">Experience</h2>
+          <p class="section__lead">
+            A decade of Shopify work — from high-volume tasks to long-running expert
+            engagements.
+          </p>
+
+          <article class="job">
+            <header class="job__header">
+              <h3 class="job__role">Senior Shopify Developer</h3>
+              <p class="job__meta">
+                <span>Storetasker</span>
+                <span aria-hidden="true">·</span>
+                <span>October 2017 – Present</span>
+                <span aria-hidden="true">·</span>
+                <span>United States</span>
+              </p>
+            </header>
+            <ul class="job__points">
+              <li>
+                Shipped work across <strong>700+ stores</strong> — small fixes through
+                complete theme rebuilds and custom functionality.
+              </li>
+              <li>
+                Implemented layouts from designs and text briefs; advised on platform
+                features, limits, and durable approaches.
+              </li>
+              <li>
+                Built reusable, customizable solutions for non-technical merchants;
+                consistently delivered on time.
+              </li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <header class="job__header">
+              <h3 class="job__role">Shopify Developer</h3>
+              <p class="job__meta">
+                <span>HeyCarson</span>
+                <span aria-hidden="true">·</span>
+                <span>September 2016 – October 2017</span>
+                <span aria-hidden="true">·</span>
+                <span>Canada</span>
+              </p>
+            </header>
+            <ul class="job__points">
+              <li>
+                Completed focused Shopify tasks in a subscription service model,
+                building deep platform and web development fluency.
+              </li>
+              <li>Achieved top KPIs for completed tasks per day.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact reveal">
+        <div class="section__inner">
+          <h2 class="section__title">Let’s build your storefront</h2>
+          <p class="section__lead">
+            Available for Shopify theme work, rebuilds, and expert Storetasker
+            engagements.
+          </p>
+          <div class="contact__actions">
+            <a class="btn btn--primary" href="mailto:drummer605@gmail.com"
+              >drummer605@gmail.com</a
+            >
+            <a class="btn btn--ghost" href="tel:+381628432008">+381 62 843 2008</a>
+          </div>
+          <ul class="contact__links">
+            <li>
+              <a
+                href="https://www.storetasker.com/experts/ivan-seleznev"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Storetasker profile</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/ivan-seleznev-b647b3423"
+                target="_blank"
+                rel="noopener noreferrer"
+                >LinkedIn</a
+              >
+            </li>
+            <li>Novi Sad, Serbia</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Ivan Seleznev · Senior Shopify Theme Developer</p>
+      <p class="site-footer__edu">
+        MSc Logistics, Materials &amp; Supply Chain Management · Siberian State
+        Aerospace University
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
