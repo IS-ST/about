@@ -156,6 +156,7 @@
 
     const track = root.querySelector("[data-carousel-track]");
     const countEl = document.querySelector("[data-review-count]");
+    const section = document.getElementById("reviews");
     if (!track) return;
 
     if (countEl) countEl.textContent = String(reviews.length);
@@ -182,23 +183,20 @@
       .join("");
 
     track.innerHTML = html;
+    if (section) section.classList.add("is-visible");
     initCarousel(root);
   }
 
   document.querySelectorAll("[data-carousel]:not([data-carousel-reviews])").forEach(initCarousel);
 
-  fetch("reviews.json")
-    .then(function (response) {
-      if (!response.ok) throw new Error("Failed to load reviews");
-      return response.json();
-    })
-    .then(renderReviews)
-    .catch(function () {
-      const track = document.querySelector("[data-carousel-reviews] [data-carousel-track]");
-      if (track) {
-        track.innerHTML =
-          '<li class="carousel__slide"><blockquote class="review"><p>Reviews are temporarily unavailable.</p></blockquote></li>';
-        initCarousel(document.querySelector("[data-carousel-reviews]"));
-      }
-    });
+  if (Array.isArray(window.PORTFOLIO_REVIEWS) && window.PORTFOLIO_REVIEWS.length) {
+    renderReviews(window.PORTFOLIO_REVIEWS);
+  } else {
+    const track = document.querySelector("[data-carousel-reviews] [data-carousel-track]");
+    if (track) {
+      track.innerHTML =
+        '<li class="carousel__slide"><blockquote class="review"><p>Reviews are temporarily unavailable.</p></blockquote></li>';
+      initCarousel(document.querySelector("[data-carousel-reviews]"));
+    }
+  }
 })();

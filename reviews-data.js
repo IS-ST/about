@@ -1,0 +1,4314 @@
+window.PORTFOLIO_REVIEWS = [
+    {
+        "name":  "Harsha Vardhan Raju",
+        "store":  "www.webangadi.com",
+        "rating":  5,
+        "text":  "This is my first project with Storetasker and I cant be more satisfied. It has been a pleasure working with Expert Ivan Seleznev. He is quick, talented and  so patient. Looking forward to give him more projects in future. My best wishes for him going forward.. :)",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Panagiotis Tzitzinos Tsanousas",
+        "store":  "innerfeelings.myshopify.com",
+        "rating":  5,
+        "text":  "Great support. Task was 100% successfully completed.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Karyn Pek",
+        "store":  "www.poochieboots.com",
+        "rating":  5,
+        "text":  "Ivan is truly an expert!!!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Karyn Pek",
+        "store":  "www.poochieboots.com",
+        "rating":  5,
+        "text":  "Ivan is my go to guy for all shopify tasks!!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Karyn Pek",
+        "store":  "www.poochieboots.com",
+        "rating":  5,
+        "text":  "Another job well done!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Karyn Pek",
+        "store":  "www.poochieboots.com",
+        "rating":  5,
+        "text":  "Excellent, as always!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Aaron Zadworny",
+        "store":  "truecustomhousenumbers.com",
+        "rating":  5,
+        "text":  "Great work from Ivan, look forward to working with him again!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Aaron Zadworny",
+        "store":  "truecustomhousenumbers.com",
+        "rating":  5,
+        "text":  "Second time working with Ivan and he is great! Thank you!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "James wilkinson",
+        "store":  "saveometer.com",
+        "rating":  5,
+        "text":  "Full of integrity, with old school values.  I would use him again in a heart beat. Another very happy customer. 12/10 !!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Jason Phillips",
+        "store":  "www.unzippedcitizen.com",
+        "rating":  5,
+        "text":  "Super Fast and Great to work with.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Info@ HMM Athletics",
+        "store":  "hmm-athletics.myshopify.com",
+        "rating":  5,
+        "text":  "Look at all the other reviews combined!!! everyone cant be lying! Ivan knows hisвЂ‹ craft! A+++++ developer! One fast ass professional! he won\u0027t waste your time so, don\u0027t waste his - I can tell Ivan live his life with a sense of URGENCY - he gets the job DONE! 200% satisfied and can\u0027t wait to hire him AGAIN!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "jared rice",
+        "store":  "xgcargo.com",
+        "rating":  5,
+        "text":  "Ivan is great. Quick, good communication, really good job. Highly recommended!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Nathan Friesen",
+        "store":  "cutthefont.com",
+        "rating":  5,
+        "text":  "Quick and perfect",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Leah Johnson",
+        "store":  "www.ljartisandesigns.com",
+        "rating":  5,
+        "text":  "Ivan did the job quickly and communicated with me every step of the way!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Kristin",
+        "store":  "missdesignberry.com",
+        "rating":  5,
+        "text":  "Ivan was great! He was fast, patient, and explained everything SO well to me. Would recommend 1000 times!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Leslie Gray",
+        "store":  "www.madebycleo.com",
+        "rating":  5,
+        "text":  "Highly recommend working with Ivan. He got the job done well and fast. I greatly appreciate the service. Thank you!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Asser Mohamed",
+        "store":  "coscosmeticsjp.myshopify.com",
+        "rating":  5,
+        "text":  "Great help thaks",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Lindsay Rapp",
+        "store":  "lindsayrappgallery.com",
+        "rating":  5,
+        "text":  "Ivan was very responsive and helpful! He was fast in his responses and the finished work was exactly what I wanted!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "isidore Goodfellow",
+        "store":  "kirijewels.com",
+        "rating":  5,
+        "text":  "Ivan came back to us and helped us with the search menu that was messed up buy the theme update. We are happy to give him more jobs, as of immediately.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "isidore Goodfellow",
+        "store":  "kirijewels.com",
+        "rating":  5,
+        "text":  "Ivan is always my go-to person. I trust his work and if anything goes wrong, he comes back and corrects without any extra charges.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Dean Else",
+        "store":  "ppeworksolutions.co.uk",
+        "rating":  5,
+        "text":  "Excellent work.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Josh Gander",
+        "store":  "elevatedfaith.com",
+        "rating":  5,
+        "text":  "Excellent turnaround time. He\u0027s always a pleasure to work with!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Denis Frydrych",
+        "store":  "qikfresh-shop.myshopify.com",
+        "rating":  5,
+        "text":  "Super responsive, fast turnaround and delivered superb quality!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Denis Frydrych",
+        "store":  "qikfresh-shop.myshopify.com",
+        "rating":  5,
+        "text":  "A real expert! Very satisfied about his expertise and quick turnarounds - perfect edits, thanks!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Denis Frydrych",
+        "store":  "qikfresh-shop.myshopify.com",
+        "rating":  5,
+        "text":  "Ivan is a pro!! Fast turnaround and great work!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Denis Frydrych",
+        "store":  "qikfresh-shop.myshopify.com",
+        "rating":  5,
+        "text":  "Great communication, support and work! Task completed to our upmost satisfaction.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Denis Frydrych",
+        "store":  "qikfresh-shop.myshopify.com",
+        "rating":  5,
+        "text":  "Ivan did a superb and fast job!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Denis Frydrych",
+        "store":  "qikfresh-shop.myshopify.com",
+        "rating":  5,
+        "text":  "We can\u0027t thank Ivan enough for being so super responsive to our requests and also creative in finding real solutions to our problems.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Denis Frydrych",
+        "store":  "qikfresh-shop.myshopify.com",
+        "rating":  5,
+        "text":  "We used Ivan for the fourth time and we are always positively surprised how fast and good he implements the tasks! 5*",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Denis Frydrych",
+        "store":  "qikfresh-shop.myshopify.com",
+        "rating":  5,
+        "text":  "As always, great and fast work by Ivan!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Fionn",
+        "store":  "theturneround.myshopify.com",
+        "rating":  5,
+        "text":  "Excellent job and turnaround time, impressed and pleased.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Fionn",
+        "store":  "theturneround.myshopify.com",
+        "rating":  5,
+        "text":  "Again, excellent job, on time and completed on short notice.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Fionn",
+        "store":  "theturneround.myshopify.com",
+        "rating":  5,
+        "text":  "Again, excellent work completed on time.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Fionn",
+        "store":  "theturneround.myshopify.com",
+        "rating":  5,
+        "text":  "Excellent response time and completed work as always with Ivan.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Nicole Meadows",
+        "store":  "nikkispopcorn.com",
+        "rating":  5,
+        "text":  "Very fast and easy to work with.  Thank you so much!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Axel Nilsson",
+        "store":  "www-24shopping-eu.myshopify.com",
+        "rating":  5,
+        "text":  "It was great working with Ivan. I highly recommend!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Axel Nilsson",
+        "store":  "www-24shopping-eu.myshopify.com",
+        "rating":  5,
+        "text":  "Ivan is very nice to work with! Is there anything Ivan can\u0027t do? :)",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Ana Dee",
+        "store":  "alienoutfitters.com",
+        "rating":  5,
+        "text":  "Great friendly fast support.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Yossi Sobel",
+        "store":  "littlecanadian.ca",
+        "rating":  5,
+        "text":  "Communication was great! Fast and Efficient!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Yossi Sobel",
+        "store":  "littlecanadian.ca",
+        "rating":  5,
+        "text":  "2nd time I used Ivan and he did it again! 10/10!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Mike Mierzwa",
+        "store":  "polishshirtstore.com, irishshirtstore.com",
+        "rating":  5,
+        "text":  "The job was completed fast and as requested. HeвЂ™s very responsive and polite.  Highly recommend!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Mike Mierzwa",
+        "store":  "polishshirtstore.com, irishshirtstore.com",
+        "rating":  5,
+        "text":  "The is the second time I\u0027ve had Ivan do work for my store. He is super fast, professional and polite. By far one of the best developers I\u0027ve ever worked with.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Mike Mierzwa",
+        "store":  "polishshirtstore.com, irishshirtstore.com",
+        "rating":  5,
+        "text":  "Ivan is fast and efficient. Awesome service as always!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Mike Mierzwa",
+        "store":  "polishshirtstore.com, irishshirtstore.com",
+        "rating":  5,
+        "text":  "This is the third time I\u0027ve hired Ivan to work on my site. I won\u0027t hire anyone else. Hands down the best shopify expert I\u0027ve worked with.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Mike Mierzwa",
+        "store":  "polishshirtstore.com, irishshirtstore.com",
+        "rating":  5,
+        "text":  "Fast, efficient, knowledgeable and polite. Great job as always Ivan!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Mike Mierzwa",
+        "store":  "polishshirtstore.com, irishshirtstore.com",
+        "rating":  5,
+        "text":  "When I have a project, I immediately submit it to Ivan. He is the only expert I work with or need. He has completed a half dozen projects for me, and I won\u0027t go anywhere else. If you need a developer, this is your guy!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Mike Mierzwa",
+        "store":  "polishshirtstore.com, irishshirtstore.com",
+        "rating":  5,
+        "text":  "Fast \u0026 professional as always.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Jon Gardea",
+        "store":  "fashiontrendla.com",
+        "rating":  5,
+        "text":  "Highly recommend Ivan. They weren\u0027t lying in his reviews when they said he\u0027s fast. He is super fast. Definitely going to request him for more jobs in the near future.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "A SOCIETY",
+        "store":  "asociety.com",
+        "rating":  5,
+        "text":  "Super efficient and responsive. Highly recommend! Will definitely find Ivan again for future work.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "A SOCIETY",
+        "store":  "asociety.com",
+        "rating":  5,
+        "text":  "Ivan is super helpful and reliable! Every time!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "A SOCIETY",
+        "store":  "asociety.com",
+        "rating":  5,
+        "text":  "Efficient as usual. Very reliable!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "A SOCIETY",
+        "store":  "asociety.com",
+        "rating":  5,
+        "text":  "very resourceful. my go to person, everytime.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Aaron Park",
+        "store":  "northwestknives.com",
+        "rating":  5,
+        "text":  "Quick, Efficient, Job was done right",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Baylie Ray",
+        "store":  "kysoneats.com",
+        "rating":  5,
+        "text":  "Did a great job with staying in contact, and completed the job in a timely manner.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Baylie Ray",
+        "store":  "kysoneats.com",
+        "rating":  5,
+        "text":  "Ivan has completed a few jobs for us. He is always very quick and handles our job perfectly.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Tristan Crowder",
+        "store":  "philosophiclothingco.com",
+        "rating":  5,
+        "text":  "Great job!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Sunish",
+        "store":  "femiya.com",
+        "rating":  5,
+        "text":  "Ivan was so much helpful. He could resolve the issue with in few minutes. Awesome support.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Sunish",
+        "store":  "femiya.com",
+        "rating":  5,
+        "text":  "Ivan is always superb :) His support is excellent",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "David Cook",
+        "store":  "",
+        "rating":  5,
+        "text":  "fast and knows what he is doing",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Lisa Haggard",
+        "store":  "tote-stories.myshopify.com",
+        "rating":  5,
+        "text":  "I\u0027m so happy with the help Ivan provided in implementing a Monogram function on my shop. Very professional, service minded and understanding of all my novice questions. This was my first Stortasker encounter and I am more than happy with the result! Will return to both Storetasker and Ivan again for sure! Thank you!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Henry Baker",
+        "store":  "www.highbornlondon.com",
+        "rating":  5,
+        "text":  "FANTASTIC! First time we\u0027ve hired developer help and we struck gold! Couldn\u0027t be happier or more highly recommend. Immediately understood requirement on multiple tasks, completed lightning fast, ultra responsive and extremely polite and easy to deal with too. A1! *****",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Henry Baker",
+        "store":  "www.highbornlondon.com",
+        "rating":  5,
+        "text":  "Amazing work as always!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Henry Baker",
+        "store":  "www.highbornlondon.com",
+        "rating":  5,
+        "text":  "Cannot put into sensible words how amazing it is to have someone so skilled we can rely on for amazing skill and service. Please don\u0027t ever stop helping people like us Ivan! We\u0027d be stuck without you!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Henry Baker",
+        "store":  "www.highbornlondon.com",
+        "rating":  5,
+        "text":  "Perfect as always!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Henry Baker",
+        "store":  "www.highbornlondon.com",
+        "rating":  5,
+        "text":  "Faultless!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Henry Baker",
+        "store":  "www.highbornlondon.com",
+        "rating":  5,
+        "text":  "Perfect! Couldn\u0027t be happier with Ivan\u0027s help.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Henry Baker",
+        "store":  "www.highbornlondon.com",
+        "rating":  5,
+        "text":  "AMAZING as always! An invaluable part of our extended team.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Henry Baker",
+        "store":  "www.highbornlondon.com",
+        "rating":  5,
+        "text":  "Fantasticas always, thank you Ivan, really appreciated.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Henry Baker",
+        "store":  "www.highbornlondon.com",
+        "rating":  5,
+        "text":  "Fantastic as always, can\u0027t fault!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Henry Baker",
+        "store":  "www.highbornlondon.com",
+        "rating":  5,
+        "text":  "Once again within hours from first asking, the project is delivered perfectly. THANK YOU!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Henry Baker",
+        "store":  "www.highbornlondon.com",
+        "rating":  5,
+        "text":  "Absolutely amazing! Can\u0027t put into words how valuable Ivan is for us!! THANK YOU!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Henry Baker",
+        "store":  "www.highbornlondon.com",
+        "rating":  5,
+        "text":  "Perfect! Thanks again Ivan, really appreciate it!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Henry Baker",
+        "store":  "www.highbornlondon.com",
+        "rating":  5,
+        "text":  "Fantastic as always! Thank YOU!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Henry Baker",
+        "store":  "www.highbornlondon.com",
+        "rating":  5,
+        "text":  "Amazing as always! Thank you.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Henry Baker",
+        "store":  "www.highbornlondon.com",
+        "rating":  5,
+        "text":  "Another perfect job. Thanks again Ivan",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Brooke Le Blanc",
+        "store":  "www.firstladyprofessional.com",
+        "rating":  5,
+        "text":  "Ivan was super helpful and extremely fast with replies.  He does a great job!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Brooke Le Blanc",
+        "store":  "www.herbalmagic.ca",
+        "rating":  5,
+        "text":  "Ivan does great work!  Do not hesitate to work with him :)",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Stephanie",
+        "store":  "",
+        "rating":  5,
+        "text":  "thank you!!!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Rob Ward",
+        "store":  "lightingcanada.com",
+        "rating":  5,
+        "text":  "C",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Frank Sharman",
+        "store":  "rootedspices.com",
+        "rating":  5,
+        "text":  "Really fast turnaround! Just what we needed. Thankyou.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Chike Chukwulozie",
+        "store":  "estella-nyc.com",
+        "rating":  5,
+        "text":  "Well done!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "kyrre mann",
+        "store":  "superliv.no, seagarden-sweden.myshopify.com",
+        "rating":  5,
+        "text":  "Swift, excellent work by Ivan. Also gives really good tech advice. Job well done!!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Chris Tourgelis",
+        "store":  "opusdesign.com.au",
+        "rating":  5,
+        "text":  "This is my first project with Storetasker and I can\u0027t be happier. Ivan was extremely fast with replies, quick to complete the task, very helpful and easy to deal with too. Highly recommend.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Chris Tourgelis",
+        "store":  "opusdesign.com.au",
+        "rating":  5,
+        "text":  "Ivan provides incredible service and quick turn around times. In the past month, he worked on 5 tasks for our store and his service, communication and quality of work are spot on. I strongly recommend Ivan.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Chris Tourgelis",
+        "store":  "opusdesign.com.au",
+        "rating":  5,
+        "text":  "Thanks Ivan",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Keyur Shah",
+        "store":  "www.paperandmore.com",
+        "rating":  5,
+        "text":  "Project involved displaying a dropdown of variants as radio buttons / swatches. Ivan got it done quickly and correctly the first time around. It was a bit tricky with needing to interface with existing javascript. Very happy with the results! Great quality work and would use him again in the future for sure!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Keyur Shah",
+        "store":  "www.paperandmore.com",
+        "rating":  5,
+        "text":  "Added another feature on top of the last project. The work was done quickly and on time! He also added some finishing touches to make it work complete with my existing layout and product types.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Keyur Shah",
+        "store":  "www.paperandmore.com",
+        "rating":  5,
+        "text":  "Needed a quick change to how out of stock variants are displayed. job was done quickly and correctly.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Keyur Shah",
+        "store":  "www.paperandmore.com",
+        "rating":  5,
+        "text":  "super smart individual. quick and efficient.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Keyur Shah",
+        "store":  "www.paperandmore.com",
+        "rating":  5,
+        "text":  "my favorite developer on here!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Kahn Hogg",
+        "store":  "www.sistasomewhere.com",
+        "rating":  5,
+        "text":  "Fantastic job Ivan - you nailed the brief perfectly and with great speed! I will definitely be seeking your expertise for future tweaks. Thanks again. Kahn",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Kahn Hogg",
+        "store":  "www.sistasomewhere.com",
+        "rating":  5,
+        "text":  "Excellent job Ivan, once again you have delivered exceptional service and executed the task with great skill - well done!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Kahn Hogg",
+        "store":  "www.sistasomewhere.com",
+        "rating":  5,
+        "text":  "Top job Ivan. IвЂ™ll be calling on your expertise again in the near future to further enhance my site.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Kahn Hogg",
+        "store":  "www.sistasomewhere.com",
+        "rating":  5,
+        "text":  "Once again, Ivan has nailed the brief and provided a professional service. No problem seems to difficult for him to solve!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Melissa",
+        "store":  "www.eighthwill.com",
+        "rating":  5,
+        "text":  "Ivan is super fast. Gets the job done!! Will be using again.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Melissa",
+        "store":  "www.eighthwill.com",
+        "rating":  5,
+        "text":  "Above and beyond.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Tanner Dillon",
+        "store":  "goodmanmedical.com",
+        "rating":  5,
+        "text":  "Great work by Ivan on our job. We would recommend him to anyone.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Stacia Guzzo",
+        "store":  "smartypits.com",
+        "rating":  5,
+        "text":  "So pleased with the quality and timeliness of work. Ivan was responsive and thorough. This was my first Storetasker job, and I\u0027ll definitely be coming back for more!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Guillaume Lachapelle",
+        "store":  "boulonseclair.com",
+        "rating":  5,
+        "text":  "Quick and Great",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "James Henrit",
+        "store":  "www.elvisandkresse.com",
+        "rating":  5,
+        "text":  "Very dependable and quick to respond, has always been able to sort out any of our issues",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Beatrice",
+        "store":  "www.buchegioielli.com",
+        "rating":  5,
+        "text":  "Quick and responsive. Precise and very kind. Would really recommend.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Beatrice",
+        "store":  "www.buchegioielli.com",
+        "rating":  5,
+        "text":  "Again Ivan excellent job done, open to dialogue and not a mere executor but a smart person who is also able to advise you with the best solution. thank you",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "david barnum",
+        "store":  "www.lumasleep",
+        "rating":  5,
+        "text":  "Ivan always delivers quick and precise work!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "david barnum",
+        "store":  "www.lumasleep",
+        "rating":  5,
+        "text":  "quick and precise work at a reasonable cost!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "david barnum",
+        "store":  "www.lumasleep",
+        "rating":  5,
+        "text":  "Ivan is always an awesome partner for our business",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "georgi kavalerov",
+        "store":  "www.passion-de-licorne.myshopify.com, various-deals.myshopify.com",
+        "rating":  5,
+        "text":  "perfect :)",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "georgi kavalerov",
+        "store":  "www.passion-de-licorne.myshopify.com, various-deals.myshopify.com",
+        "rating":  5,
+        "text":  "Great job, always satisfied :)",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "georgi kavalerov",
+        "store":  "www.passion-de-licorne.myshopify.com, various-deals.myshopify.com",
+        "rating":  5,
+        "text":  "Again very fast for the works I recommend Ivan without hesitation :)",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "georgi kavalerov",
+        "store":  "www.passion-de-licorne.myshopify.com, various-deals.myshopify.com",
+        "rating":  5,
+        "text":  "always on top ;)",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Jerry Crosby",
+        "store":  "www.offensivethreads.com",
+        "rating":  5,
+        "text":  "Awesome job. Did exactly what I needed. I will definitely use him again soon.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "lynn bamber",
+        "store":  "www.lusciouslyloopy.co.uk",
+        "rating":  5,
+        "text":  "I was very nervous about using this method to get the work done that I needed and paying upfront for a job. I shouldn\u0027t have been!  Ivan has been professional, friendly and speedy to reply to messages. He finished the job in good time and it was exactly what I wanted. I also felt that had anything gone wrong there was back up and support from the storetasker team. One very happy customer who will return if I need any other tasks done.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Jeff Crawford",
+        "store":  "kowa-stained-glass.myshopify.com",
+        "rating":  5,
+        "text":  "(I thought I just submitted this already, so apologies for a duplicate) Job tasks was not difficult, but Ivan still delivered on time and within budget. 5-stars. I will hire him again for future tasks.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Sophie",
+        "store":  "www.nagleandsisters.com",
+        "rating":  5,
+        "text":  "Ivan is incredibly fast (I wonder when he sleeps!) and his work was spot on!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Allen A.",
+        "store":  "www.jamber.com",
+        "rating":  5,
+        "text":  "I\u0027m a Boston-based entrepreneur, and needed some help with my Shopify website.  Ivan came to the rescue.  He very quickly made every change that I asked about....only he implemented back-end tools that allow me to make the needed changes myself in the future.  Ivan is a coding super-star.   Without question, any Shopify work that I need help with will be going to Ivan in the future.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Allen A.",
+        "store":  "www.jamber.com",
+        "rating":  5,
+        "text":  "My 2nd job with Ivan...and another complete success.  An absolute solid 5-star review. Ivan was fast, friendly, very communicative, and again created fantastic tools that help me better control my entire website.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Allen A.",
+        "store":  "www.jamber.com",
+        "rating":  5,
+        "text":  "This is now my 3rd job with Ivan...and another 5-stars.   Ivan continues to impress with his abilities, his speed, and his professionalism. - A very happy customer in Boston, MA USA.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Andrea Gall-Krasnick",
+        "store":  "www.xeniverse.com",
+        "rating":  5,
+        "text":  "Ivan is awesome!  He did exactly what I wanted - and fast!  I will definitely use Storetasker again and I\u0027ll definitely request Ivan next time.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Phil Schneider",
+        "store":  "www.soiefleuri.com",
+        "rating":  5,
+        "text":  "Ivan, first of all thank you for your good work at my Onlinestore. You made an excellent job and the communication with you was super easy. Ivan made exactly what i needed at my webshop. Now all runs perfect and looks great.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Stephen Plash",
+        "store":  "plashlights.com",
+        "rating":  5,
+        "text":  "Great Job.  Easy communicator!  Will definitely use again!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Stephen Plash",
+        "store":  "plashlights.com",
+        "rating":  5,
+        "text":  "Great Service!!!  I use Ivan all the time.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Biswajit Sen",
+        "store":  "dailybuyys.com",
+        "rating":  5,
+        "text":  "completing all task successfully",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Biswajit Sen",
+        "store":  "dailybuyys.com",
+        "rating":  5,
+        "text":  "Great work, extremely professional: thanks Ivan.Looking forward to working with you again.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Lana Smith",
+        "store":  "www.motuswim.com",
+        "rating":  5,
+        "text":  "Really easy to work with. Fast and efficient and did the job perfectly.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Josh Lee",
+        "store":  "lolaandtheboys.com, www.minidreamers.com",
+        "rating":  5,
+        "text":  "Amazing support!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "All Would Envy",
+        "store":  "allwouldenvy.com",
+        "rating":  5,
+        "text":  "Very efficient and helpful!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "All Would Envy",
+        "store":  "allwouldenvy.com",
+        "rating":  5,
+        "text":  "Pleasure to work with, 2nd job that Ivan has helped me with!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "All Would Envy",
+        "store":  "allwouldenvy.com",
+        "rating":  5,
+        "text":  "will always rely on Ivan when something needs to be fixed. quick and responsive!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "All Would Envy",
+        "store":  "allwouldenvy.com",
+        "rating":  5,
+        "text":  "Ivan always deliver what is required with speed. Easy communication makes it all that much easier for me to explain things in layman language and Ivan picks up what I need instantly.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Ben Fletcher",
+        "store":  "",
+        "rating":  5,
+        "text":  "Excellent!! This was my first time using Storetasker and I wasnвЂ™t disappointed.  Ivan was quick, professional and really knows what heвЂ™s doing, above all he has excellent communication. I am already starting my second job with Ivan and I wouldnвЂ™t hesitate to recommend.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Ben Fletcher",
+        "store":  "",
+        "rating":  5,
+        "text":  "Fantastic, Ivan took the time to come up with a great solution to an ongoing problem we had. One of many jobs we have now done with Ivan and its always easy, we are also based in the UK and the time difference and distance presents no problem at all.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Ben Fletcher",
+        "store":  "",
+        "rating":  5,
+        "text":  "Another great job with Ivan. I\u0027m based in the UK and it\u0027s no problem, easy to work with, great communication and quick!!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Ben Fletcher",
+        "store":  "",
+        "rating":  5,
+        "text":  "Another job completed with Ivan, and easy to deal with as always. 5 Stars!!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Tracey Stimpson",
+        "store":  "littleworldnz.com",
+        "rating":  5,
+        "text":  "Ivan is very skilled and very patient!!!  Much appreciated.  Tracey at Little World NZ.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Wendy Lazar",
+        "store":  "iheartguts.com",
+        "rating":  5,
+        "text":  "Ivan is fast, professional and took care of a handful of issues I tried to fix myself for ages. Thank you, Ivan, for your great work!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Wendy Lazar",
+        "store":  "iheartguts.com",
+        "rating":  5,
+        "text":  "Ivan is fast and professional. Thanks, Ivan!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Wendy Lazar",
+        "store":  "iheartguts.com",
+        "rating":  5,
+        "text":  "Our front-page slideshow was broken for four years until Ivan come and fixed it! thank you!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Li Li",
+        "store":  "",
+        "rating":  5,
+        "text":  "Ivan is an excellent expert! I am so satisfied at this experience! Thanks for your patience!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Li Li",
+        "store":  "",
+        "rating":  5,
+        "text":  "NICE JOB Always! Thanks Ivan",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Denis Benoit",
+        "store":  "lpphotoceramics.com",
+        "rating":  5,
+        "text":  "Ivan is extremely attentive, on point, and a true professional. He completed my project within a few hours of my job being posted and the results are perfect. He was so good that I started another job with him the same day and he completed that one as well. So, in one day, Ivan solved all of my problems. Doesn\u0027t get much better than that!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Denis Benoit",
+        "store":  "lpphotoceramics.com",
+        "rating":  5,
+        "text":  "Another great job by a highly skilled Shopify expert!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Denis Benoit",
+        "store":  "lpphotoceramics.com",
+        "rating":  5,
+        "text":  "This was the third job Ivan completed for me this week, on time and perfectly executed! Starting my fourth job with him now. I highly recommend Ivan; 5 stars all the way!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Tom",
+        "store":  "kavalri.com.au",
+        "rating":  5,
+        "text":  "Job well done.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Tom",
+        "store":  "kavalri.com.au",
+        "rating":  5,
+        "text":  "Another Job well done. Thanks",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Matt Holmes",
+        "store":  "www.gowfb.com",
+        "rating":  5,
+        "text":  "Ivan was quick to respond and completed the task correctly and on time.  He went above and beyond what we were expecting.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Matt Holmes",
+        "store":  "www.gowfb.com",
+        "rating":  5,
+        "text":  "Work was done well and on time",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Matt Holmes",
+        "store":  "www.gowfb.com",
+        "rating":  5,
+        "text":  "Ivan was very responsive and does very good work while following instructions.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Erin Hooley",
+        "store":  "peytonbre.com",
+        "rating":  5,
+        "text":  "Amazing to work with! Professional and friendly in every way, and gets the job done FAST! Thank you Ivan - we\u0027ll be back! ;)",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Erin Hooley",
+        "store":  "peytonbre.com",
+        "rating":  5,
+        "text":  "ALWAYS a pleasure Ivan! You are thorough and your quality and service standards are many cuts above the rest!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Louis Dawson",
+        "store":  "streetsolutionsuk.co.uk",
+        "rating":  5,
+        "text":  "Extremely helpful Knowledgeable Quick 5/5",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Fatih SAHIN",
+        "store":  "emagaza.adell.com, www.adell.com",
+        "rating":  5,
+        "text":  "Nice job. Thank you.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Paulo Freitag",
+        "store":  "alkalinesuperfoods.com.au",
+        "rating":  5,
+        "text":  "Great Work, very fast turnaround!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Moreno Aguiar",
+        "store":  "borana.com.br",
+        "rating":  5,
+        "text":  "excellent!!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Renco",
+        "store":  "teazaar.shopteazaar.myshopify.com",
+        "rating":  5,
+        "text":  "Ivan found a solution for an almost impossible task. Moreover, all related issues were explained and solved so that I can work easily with this new feature. I\u0027m very happy and look forward to continue working with him!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Renco",
+        "store":  "teazaar.shopteazaar.myshopify.com",
+        "rating":  5,
+        "text":  "Have worked for a number of jobs with Ivan and all results were just great. It\u0027s a pleasure working with him, mainly because pro-active and problem solving attitude. Sometimes you don\u0027t know how to solve an issue, but Ivan will find a solution based on what\u0027s possible.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Amy Fung",
+        "store":  "riadlabel.com",
+        "rating":  5,
+        "text":  "Efficient, good manner, polite and always go a mile to help clients. So happy with his service and work!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Cristina Madoch",
+        "store":  "www.toynk.com",
+        "rating":  5,
+        "text":  "Quick responses and very pleasant to work with. Ivan fixed the image sizing issues on our website collection pages (Turbo Theme) and it looks great. Thanks Ivan!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Cristina Madoch",
+        "store":  "www.toynk.com",
+        "rating":  5,
+        "text":  "Great to work with. Thank you.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Cristina Madoch",
+        "store":  "www.toynk.com",
+        "rating":  5,
+        "text":  "Great to work with. Fast as always",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Cristina Madoch",
+        "store":  "www.toynk.com",
+        "rating":  5,
+        "text":  "Always great to work with Ivan. Would recommend him anytime.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Cristina Madoch",
+        "store":  "www.toynk.com",
+        "rating":  5,
+        "text":  "Great. Thank you for your help",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Cristina Madoch",
+        "store":  "www.toynk.com",
+        "rating":  5,
+        "text":  "thank you for attempting to fix",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Cristina Madoch",
+        "store":  "www.toynk.com",
+        "rating":  5,
+        "text":  "Ivan did a great job, as always!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Manjit Mieszkowski",
+        "store":  "tranquilitycrystals.com.au",
+        "rating":  5,
+        "text":  "Excellent, job well done and in great timing.! Thank you Ivan.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Manjit Mieszkowski",
+        "store":  "tranquilitycrystals.com.au",
+        "rating":  5,
+        "text":  "As always Ivan is great at what he does. Thank you for your help and support. I would definitely recommend him to help you with all your website issues.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "XIJIN WU",
+        "store":  "www.appreciis.com",
+        "rating":  5,
+        "text":  "Add a review for Ivan Seleznev on Project #13844",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Matvey Shcherbakovskiy",
+        "store":  "www.delea.ch, www.amuerte.ch",
+        "rating":  5,
+        "text":  "Really fast work! Good job Ivan",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Matvey Shcherbakovskiy",
+        "store":  "www.delea.ch, www.amuerte.ch",
+        "rating":  5,
+        "text":  "Fast and professional. Always ready to help!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Jesse Hambly",
+        "store":  "www.pressabottle.com",
+        "rating":  5,
+        "text":  "Great service and helped me reach the desired goal.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Jesse Hambly",
+        "store":  "www.pressabottle.com",
+        "rating":  5,
+        "text":  "Works quickly and makes sure the job is done correctly.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Firas Kamourieh",
+        "store":  "onedenim.com",
+        "rating":  5,
+        "text":  "Excellent work! Ivan did a great job and I highly recommend him.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Firas Kamourieh",
+        "store":  "onedenim.com",
+        "rating":  5,
+        "text":  "Amazing job! Super fast and excellent work!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Firas Kamourieh",
+        "store":  "onedenim.com",
+        "rating":  5,
+        "text":  "perfect job as usual, thank you!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Firas Kamourieh",
+        "store":  "onedenim.com",
+        "rating":  5,
+        "text":  "Excellent work as usual! Thanks for your help!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Firas Kamourieh",
+        "store":  "onedenim.com",
+        "rating":  5,
+        "text":  "Perfect job as usual, thanks again for all your help!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Firas Kamourieh",
+        "store":  "onedenim.com",
+        "rating":  5,
+        "text":  "perfect job every single time!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Firas Kamourieh",
+        "store":  "onedenim.com",
+        "rating":  5,
+        "text":  "Amazing work - always does a great job!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Firas Kamourieh",
+        "store":  "onedenim.com",
+        "rating":  5,
+        "text":  "Perfect job - quick response - excellent work!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Firas Kamourieh",
+        "store":  "onedenim.com",
+        "rating":  5,
+        "text":  "Incredible job- super efficient and always delivers great work at a fast rate!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Firas Kamourieh",
+        "store":  "onedenim.com",
+        "rating":  5,
+        "text":  "Another perfect job! I cant find anything negative to say..",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Firas Kamourieh",
+        "store":  "onedenim.com",
+        "rating":  5,
+        "text":  "Great work - super fast and responsive!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Firas Kamourieh",
+        "store":  "onedenim.com",
+        "rating":  5,
+        "text":  "amazing work every single time",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Firas Kamourieh",
+        "store":  "onedenim.com",
+        "rating":  5,
+        "text":  "I can always rely on Ivan and his work is excellent!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Julie Johnson",
+        "store":  "www.mavenmetals.com",
+        "rating":  5,
+        "text":  "AMAZING, fast, knowledgeable, kind, and accomplished exactly what we needed quickly. Great communication. Such a great first experience with Ivan using Storetasker.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Julie Johnson",
+        "store":  "www.mavenmetals.com",
+        "rating":  5,
+        "text":  "Accurate \u0026 fast, great communication! Ivan has completed several tasks on our website and he has completed each one quickly and accuratley. He is easy to talk to and work with. We\u0027re thrilled to have a go-to person for customizations on our website.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Julie Johnson",
+        "store":  "www.mavenmetals.com",
+        "rating":  5,
+        "text":  "Helped us add some custom coding so we can include a \"Turnaround Time\" to specific products on our website. It works perfectly so we can now tag specific products with different turnaround times. Thank you so much, excellent work as always!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Julie Johnson",
+        "store":  "www.mavenmetals.com",
+        "rating":  5,
+        "text":  "Thank you, great work again!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Julie Johnson",
+        "store":  "www.mavenmetals.com",
+        "rating":  5,
+        "text":  "Task was completed quickly and perfectly! Love working with Ivan!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Julie Johnson",
+        "store":  "www.mavenmetals.com",
+        "rating":  5,
+        "text":  "Ivan is so fantastic to work with, reliable \u0026 consistent in the work he produces. We are so happy to have found him to work on our store! Thank you!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Julie Johnson",
+        "store":  "www.mavenmetals.com",
+        "rating":  5,
+        "text":  "Great work finding where to make a specific change on our website within a custom coded page. Thank you!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Julie Johnson",
+        "store":  "www.mavenmetals.com",
+        "rating":  5,
+        "text":  "Thank you for the excellent work again!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Julie Johnson",
+        "store":  "www.mavenmetals.com",
+        "rating":  5,
+        "text":  "Fantastic work again by Ivan on our website, completed our task in a timely manner and completed everything we requested with no questions at all. Thank you!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Darius Tan",
+        "store":  "carets.com",
+        "rating":  5,
+        "text":  "5 stars, great speed \u0026 quality",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Darius Tan",
+        "store":  "carets.com",
+        "rating":  5,
+        "text":  "It\u0027s always a pleasure working with Ivan. Quick and committed to customer happiness.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Darius Tan",
+        "store":  "carets.com",
+        "rating":  5,
+        "text":  "Great as always! Ivan is always quick and responsive.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Darius Tan",
+        "store":  "carets.com",
+        "rating":  5,
+        "text":  "Love working with Ivan as always! Delivered quick and he was responsive.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Darius Tan",
+        "store":  "carets.com",
+        "rating":  5,
+        "text":  "Great work by Ivan! Always a pleasure to work with him.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Alex Dearmin",
+        "store":  "",
+        "rating":  5,
+        "text":  "I won\u0027t hesitate to request Ivan for my future projects. A+ work, A+ communication, A+ experience.  Thanks for the help!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "alexis botaya",
+        "store":  "",
+        "rating":  5,
+        "text":  "Ivan was a great help, thanks a lot !",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Dulma Altan",
+        "store":  "www.potionnaturals.com",
+        "rating":  5,
+        "text":  "Amazing job. Super responsive.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Hudson Liao",
+        "store":  "",
+        "rating":  5,
+        "text":  "Did exactly what I wanted and was very fast! Would definitely work with him again!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Adam Lawrence",
+        "store":  "bestketonetest.com",
+        "rating":  5,
+        "text":  "Awesome job. Easy to work with and fast.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Nicole Galbraith",
+        "store":  "swigflasks.com",
+        "rating":  5,
+        "text":  "Extremely patient, and has been very helpful throughout the entire process. Wouldn\u0027t hesitate to recommend :)",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Jennifer Goldman",
+        "store":  "essentialroselife.com",
+        "rating":  5,
+        "text":  "Ivan was very helpful, quick, and responsive",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Chad H",
+        "store":  "thelastcoat.com",
+        "rating":  5,
+        "text":  "Great work and responsiveness, no complaints.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Herman Masen",
+        "store":  "metricsplanet.myshopify.com, www.luxheating.com",
+        "rating":  5,
+        "text":  "Working with Ivan was a great experience for several reasons: *Quick reply\u0027s on messages \u0026 adjustments requests *Friendly and helpful *Experienced *Additional improvements till satisfaction. If I need some more changes on my webstore sooner or later I will ask him again.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Herman Masen",
+        "store":  "metricsplanet.myshopify.com, www.luxheating.com",
+        "rating":  5,
+        "text":  "Quick Work! Friendly Communication! Expert in his Work!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "empoweredEyeWearDevStore Admin",
+        "store":  "imbibeliving.com",
+        "rating":  5,
+        "text":  "Great work, extremely professional and incredibly patient: thanks Ivan! Looking forward to working with you again.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "empoweredEyeWearDevStore Admin",
+        "store":  "imbibeliving.com",
+        "rating":  5,
+        "text":  "Ivan is awesome. Highly recommended!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "empoweredEyeWearDevStore Admin",
+        "store":  "imbibeliving.com",
+        "rating":  5,
+        "text":  "Ivan rocks: as always, highly recommended!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "empoweredEyeWearDevStore Admin",
+        "store":  "imbibeliving.com",
+        "rating":  5,
+        "text":  "Great work, as usual: highly recommended!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "empoweredEyeWearDevStore Admin",
+        "store":  "imbibeliving.com",
+        "rating":  5,
+        "text":  "Ivan is the best: I feel lucky to work with him! As always, highly recommended.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "empoweredEyeWearDevStore Admin",
+        "store":  "imbibeliving.com",
+        "rating":  5,
+        "text":  "As always, highly recommended: efficient and professional!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "empoweredEyeWearDevStore Admin",
+        "store":  "imbibeliving.com",
+        "rating":  5,
+        "text":  "Great work, fast and professional!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "empoweredEyeWearDevStore Admin",
+        "store":  "imbibeliving.com",
+        "rating":  5,
+        "text":  "Ivan is amazingly good at what he does!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "empoweredEyeWearDevStore Admin",
+        "store":  "imbibeliving.com",
+        "rating":  5,
+        "text":  "Ivan is a superhero :) even if his cape is invisible!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "empoweredEyeWearDevStore Admin",
+        "store":  "imbibeliving.com",
+        "rating":  5,
+        "text":  "Thanks Ivan, always a pleasure!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Teemu Tolonen",
+        "store":  "speybros.com",
+        "rating":  5,
+        "text":  "Really happy with all. Fast work - clear answers and result was really good.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Teemu Tolonen",
+        "store":  "speybros.com",
+        "rating":  5,
+        "text":  "Again, quick and good work. Delivery in few hours.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Teemu Tolonen",
+        "store":  "speybros.com",
+        "rating":  5,
+        "text":  "as always, quick and good work.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Teemu Tolonen",
+        "store":  "speybros.com",
+        "rating":  5,
+        "text":  "As always, good work and good communication",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Teemu Tolonen",
+        "store":  "speybros.com",
+        "rating":  5,
+        "text":  "Always great to work with Ivan.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "grant marks",
+        "store":  "blackcatcbd.com",
+        "rating":  5,
+        "text":  "man Ivan did an amazing job. we worked days to try and fix it. he did it in an hour.  www.blackcatcbd.com. use this guy.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Jess Jones",
+        "store":  "",
+        "rating":  5,
+        "text":  "Super fast work, and very friendly. Highly recommend!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Susan Leonard",
+        "store":  "shorebrand.com",
+        "rating":  5,
+        "text":  "Ivan got the job done in the time frame he said he would and it was accurate",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Dea",
+        "store":  "urbipod.myshopify.com",
+        "rating":  5,
+        "text":  "Rockstar developer, efficient, and friendly!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Alec Illingworth-Kay",
+        "store":  "alecik.com",
+        "rating":  5,
+        "text":  "Very professional and quick. Thanks very much! Will use again!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Edwin Anthony",
+        "store":  "rezolutionsdesign.myshopify.com",
+        "rating":  5,
+        "text":  "Ivan went far and beyond the requested assignment.  I wanted to make sure there was no bugs and he went further to help.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Edwin Anthony",
+        "store":  "rezolutionsdesign.myshopify.com",
+        "rating":  5,
+        "text":  "Great working with Ivan.  He helped out to the best ability.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Alex",
+        "store":  "directnail.com",
+        "rating":  5,
+        "text":  "Did exactly what I needed. Great rate.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Kimberly Goetchius",
+        "store":  "urbancraftco.myshopify.com",
+        "rating":  5,
+        "text":  "Ivan did a fantastic job, he understood exactly what I needed and was very quick to get the project done. I will definitely call on him for any future projects.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Lynn Lee",
+        "store":  "ongoenergy.com",
+        "rating":  5,
+        "text":  "Ivan is great at what he does. Was very accommodating to my requests. I\u0027m very pleased with the results.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Rachael",
+        "store":  "www.lucyandmui.com",
+        "rating":  5,
+        "text":  "really responsive and helped to troubleshoot quickly",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Allie Pisarro-Grant",
+        "store":  "alcove.shop",
+        "rating":  5,
+        "text":  "Ivan completely understood all of the customization I needed to the Shopify Theme I had purchased from a third party developer. He did the work quickly and correctly and correspondence with him was easy and friendly!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Allie Pisarro-Grant",
+        "store":  "alcove.shop",
+        "rating":  5,
+        "text":  "Once again fantastic to be working with Ivan. He made a long list of changes for me and took my revision requests in stride. Highly recommended.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Allie Pisarro-Grant",
+        "store":  "alcove.shop",
+        "rating":  5,
+        "text":  "Great as usual to work with Ivan!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Allie Pisarro-Grant",
+        "store":  "alcove.shop",
+        "rating":  5,
+        "text":  "Great help as always from Ivan.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "April Wilkes",
+        "store":  "www.kiddiwinkcustom.com.au",
+        "rating":  5,
+        "text":  "Ivan completed work on our website with so much speed and efficiency. He achieved exactly what we wanted and even better than we had imagined.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Yury Efremov",
+        "store":  "sorelle.moscow",
+        "rating":  5,
+        "text":  "Quick to respond and very helpful! Thanks, good job!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "John Owen",
+        "store":  "pointtwomaps1.myshopify.com, pointtwodesign.com",
+        "rating":  5,
+        "text":  "Excellent, accurate and speedy work.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "John Owen",
+        "store":  "pointtwomaps1.myshopify.com, pointtwodesign.com",
+        "rating":  5,
+        "text":  "Accurate, timely work. Great communication.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Georgia Sergienko",
+        "store":  "auskickshop.afl",
+        "rating":  5,
+        "text":  "Ivan was great to work with and had our job completed quickly and to a high standard. Would definitely use again",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Georgia Sergienko",
+        "store":  "auskickshop.afl",
+        "rating":  5,
+        "text":  "Great work again from Ivan. Did our work quickly and to a really good standard",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Chitra",
+        "store":  "ritzymatey.com",
+        "rating":  5,
+        "text":  "good and quick delivery as always!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Chitra",
+        "store":  "ritzymatey.com",
+        "rating":  5,
+        "text":  "I am a repeat client of Ivan. He works well and quickly every time!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Chitra",
+        "store":  "ritzymatey.com",
+        "rating":  5,
+        "text":  "great work as always. thanks Ivan!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Ian Stanford",
+        "store":  "www.pallet-trucksdirect.co.uk",
+        "rating":  5,
+        "text":  "Ivan understood exactly what we required and was very helpful and completed all the tasks we requested in a matter of hours.  Our website looks great now and hopefully will generate more business due to the alterations. Thank you",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Ian Stanford",
+        "store":  "www.pallet-trucksdirect.co.uk",
+        "rating":  5,
+        "text":  "Ivan, was prompt in reply and the job completed really quickly yet again!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Thomas Li Vigni",
+        "store":  "neatbones.com",
+        "rating":  5,
+        "text":  "Amazing Job, Ivan is a pro, I will work again with him for sure!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Thomas Li Vigni",
+        "store":  "neatbones.com",
+        "rating":  5,
+        "text":  "Ivan has made an excellent job on my store! ItвЂ™s a pleasure to work with him",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Caroline Bertrand",
+        "store":  "www.borderlinebodysuits.com",
+        "rating":  5,
+        "text":  "Very quick turnaround, and completed work as requested.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Steve Amstad",
+        "store":  "www.brackslacelocks.co.nz",
+        "rating":  5,
+        "text":  "Extremely good developer, listens to what the client wants and sorts out any issues there might be.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Steve Amstad",
+        "store":  "www.brackslacelocks.co.nz",
+        "rating":  5,
+        "text":  "Another great experience with Ivan. Listens to what the client wants, and adds features that are great for the store as well. I would have no hesitations to use Ivan again for future work.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Shaun Trainer",
+        "store":  "www.shauntrainer.com",
+        "rating":  5,
+        "text":  "So good to work with. Super talented, friendly and understands what you need.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Morgan Buchanan",
+        "store":  "hairhack.com.au",
+        "rating":  5,
+        "text":  "very helpful. Ivan goes out of his way to help you out with any requests.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Corey Michael",
+        "store":  "blkdiamond.co",
+        "rating":  5,
+        "text":  "Dude knows his stuff, will be using again! Thanks IVAN!!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Corey Michael",
+        "store":  "blkdiamond.co",
+        "rating":  5,
+        "text":  "Always a pleasure working with you.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Corey Michael",
+        "store":  "blkdiamond.co",
+        "rating":  5,
+        "text":  "Awesome work, goes above and beyond to make sure we\u0027re happy.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Hauge From",
+        "store":  "6gadget.com, bremt.com, teemium.com",
+        "rating":  5,
+        "text":  "Really fast and understands what you want instantly",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Hauge From",
+        "store":  "6gadget.com, bremt.com, teemium.com",
+        "rating":  5,
+        "text":  "Great job, exactly as I wanted it",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Hauge From",
+        "store":  "6gadget.com, bremt.com, teemium.com",
+        "rating":  5,
+        "text":  "Brilliant. Just as I wanted it",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Hauge From",
+        "store":  "6gadget.com, bremt.com, teemium.com",
+        "rating":  5,
+        "text":  "Great work as always. Pleasure to work with",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Hauge From",
+        "store":  "6gadget.com, bremt.com, teemium.com",
+        "rating":  5,
+        "text":  "Great as always. Fast delivery",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Hauge From",
+        "store":  "6gadget.com, bremt.com, teemium.com",
+        "rating":  5,
+        "text":  "Good as always, fast delivery and just like I envisioned it",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Andrew Loucks",
+        "store":  "www.aliensunshade.com",
+        "rating":  5,
+        "text":  "Ivan was an absolute pleasure to deal with! Reliable, fast to respond and completed the task quickly with a high level of professionalism. I got exactly what I asked for! Thanks again for the top notch service, Ivan.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Andrew Loucks",
+        "store":  "www.aliensunshade.com",
+        "rating":  5,
+        "text":  "Ivan is very fast to respond and does great work. I\u0027m a repeat customer and won\u0027t hesitate to reach out to Ivan for my next project. He really knows his stuff.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Annalisa Phillips",
+        "store":  "www.hufglocken.com",
+        "rating":  5,
+        "text":  "Super! Thankyou for fast efficient service",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Lei Zhang",
+        "store":  "www.nexipc.com",
+        "rating":  5,
+        "text":  "Ivan is very helpful, good work.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Lei Zhang",
+        "store":  "www.nexipc.com",
+        "rating":  5,
+        "text":  "Easy to communicate, very helpful.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Blake Charvoz",
+        "store":  "www.upspringbaby.com, batelle-inc.myshopify.com, batelle.com, pixelrocketapps.com, koalaqa.com",
+        "rating":  5,
+        "text":  "This guy works fast and gets the job done right!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Blake Charvoz",
+        "store":  "www.upspringbaby.com, batelle-inc.myshopify.com, batelle.com, pixelrocketapps.com, koalaqa.com",
+        "rating":  5,
+        "text":  "Ivan is the man he killed it for us on this project",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Blake Charvoz",
+        "store":  "www.upspringbaby.com, batelle-inc.myshopify.com, batelle.com, pixelrocketapps.com, koalaqa.com",
+        "rating":  5,
+        "text":  "Ivan delivers again. Nice work man,",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Blake Charvoz",
+        "store":  "www.upspringbaby.com, batelle-inc.myshopify.com, batelle.com, pixelrocketapps.com, koalaqa.com",
+        "rating":  5,
+        "text":  "Ivan delivers again. Project: Shopify front end development",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Blake Charvoz",
+        "store":  "www.upspringbaby.com, batelle-inc.myshopify.com, batelle.com, pixelrocketapps.com, koalaqa.com",
+        "rating":  5,
+        "text":  "Great job again setting up mobile uploads for the hero slider",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Blake Charvoz",
+        "store":  "www.upspringbaby.com, batelle-inc.myshopify.com, batelle.com, pixelrocketapps.com, koalaqa.com",
+        "rating":  5,
+        "text":  "Ivan kills it again. Amazing work as always.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Blake Charvoz",
+        "store":  "www.upspringbaby.com, batelle-inc.myshopify.com, batelle.com, pixelrocketapps.com, koalaqa.com",
+        "rating":  5,
+        "text":  "Ivan gets the job done again. On to the next project w/ this dude!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Blake Charvoz",
+        "store":  "www.upspringbaby.com, batelle-inc.myshopify.com, batelle.com, pixelrocketapps.com, koalaqa.com",
+        "rating":  5,
+        "text":  "Ivan is the man and got the job done right again",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Blake Charvoz",
+        "store":  "www.upspringbaby.com, batelle-inc.myshopify.com, batelle.com, pixelrocketapps.com, koalaqa.com",
+        "rating":  5,
+        "text":  "Ivan is consistent, fast and a good communicator as always.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Blake Charvoz",
+        "store":  "www.upspringbaby.com, batelle-inc.myshopify.com, batelle.com, pixelrocketapps.com, koalaqa.com",
+        "rating":  5,
+        "text":  "Ivan is consistent, fast and a good communicator as always.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Blake Charvoz",
+        "store":  "www.upspringbaby.com, batelle-inc.myshopify.com, batelle.com, pixelrocketapps.com, koalaqa.com",
+        "rating":  5,
+        "text":  "Ivan did well for us on another project",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Katrina",
+        "store":  "theupsystore.com.au, feather.com.au",
+        "rating":  5,
+        "text":  "Project done really well and on time. 10/10!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Jamie De La Haye",
+        "store":  "ballplayaofficial.com, www.smilesalign.com, www.smilesalliance.com.au, imprintmerch.com.au",
+        "rating":  5,
+        "text":  "Ivan work is so fast I needed Sub-collections added onto my website he coded it to match our needs I will be back for more work thank you.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Cody",
+        "store":  "keller4salon.com, shopnorthauthentic.com",
+        "rating":  5,
+        "text":  "Fast and did the work. Thanks so much!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Kayleigh Bidwell",
+        "store":  "thatspecialdaybridal.myshopify.com",
+        "rating":  5,
+        "text":  "amazing! would use again, very prompt service and helped me with other things over and above.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Kayleigh Bidwell",
+        "store":  "thatspecialdaybridal.myshopify.com",
+        "rating":  5,
+        "text":  "10/10 would use again very good work",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Christina Stevens",
+        "store":  "sdaraskin.com",
+        "rating":  5,
+        "text":  "Very fast \u0026 above expectations",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Christina Stevens",
+        "store":  "sdaraskin.com",
+        "rating":  5,
+        "text":  "Prompt and complete to expectations!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Carling Wong-Renger",
+        "store":  "carlingwongrenger.com",
+        "rating":  5,
+        "text":  "Quick and professional with a вЂ‹project deadline.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Amelia King",
+        "store":  "giantoy.com, www.giantoy.com",
+        "rating":  5,
+        "text":  "Very precise in details, will be happy to work with you again.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Amelia King",
+        "store":  "giantoy.com, www.giantoy.com",
+        "rating":  5,
+        "text":  "Ivan is by far the most professional expert we\u0027ve dealt with! We are happy that he always covers all the details and it saves just so much communication, will continue to work with Ivan in the future!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Amelia King",
+        "store":  "giantoy.com, www.giantoy.com",
+        "rating":  5,
+        "text":  "Another task finished, thank you so much!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Amelia King",
+        "store":  "giantoy.com, www.giantoy.com",
+        "rating":  5,
+        "text":  "Another one done and more coming, Ivan is always the most reliable and efficient expert!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Amelia King",
+        "store":  "giantoy.com, www.giantoy.com",
+        "rating":  5,
+        "text":  "Thanks again, will come back soon another task. ?",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Marcos Ortega",
+        "store":  "",
+        "rating":  5,
+        "text":  "Ivan knows his stuff! Will definitely use him again",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Terry Peh",
+        "store":  "gooddogpeople.com",
+        "rating":  5,
+        "text":  "Ivan\u0027s super fast and responsive. On my fav list now.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Terry Peh",
+        "store":  "gooddogpeople.com",
+        "rating":  5,
+        "text":  "Quick, committed and helpful, as always!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Andreas Boesch",
+        "store":  "shopaclock.com",
+        "rating":  5,
+        "text":  "Excellent service - very fast and exactly on the task. It was a pleasure working with Ivan and I can only recommend him.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Guilherme Oliveira",
+        "store":  "danhenrywatches.com",
+        "rating":  5,
+        "text":  "He is fast, efficient and pro-active. We\u0027ll certainly work with him again.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Guilherme Oliveira",
+        "store":  "danhenrywatches.com",
+        "rating":  5,
+        "text":  "He was fast as efficient as always,",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Guilherme Oliveira",
+        "store":  "danhenrywatches.com",
+        "rating":  5,
+        "text":  "Great work, fast and careful about details.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Guilherme Oliveira",
+        "store":  "danhenrywatches.com",
+        "rating":  5,
+        "text":  "Very good, as usual! .........",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Brent Grove",
+        "store":  "www.beerjerk.co.nz",
+        "rating":  5,
+        "text":  "Fast and responsive. Solution as per specification.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Brent Grove",
+        "store":  "www.beerjerk.co.nz",
+        "rating":  5,
+        "text":  "This is the second time I\u0027ve used Ivan for a project. Once again he was fast, communicated well and delivered the outcome we where after. Thanks Ivan!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Brent Grove",
+        "store":  "www.beerjerk.co.nz",
+        "rating":  5,
+        "text":  "Quick, easy and to specification as usual!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Robert Walden",
+        "store":  "groove-bags.myshopify.com",
+        "rating":  5,
+        "text":  "Ivan was very fast and did exactly what I wanted. Will work with him again, without hesitation.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Gary Parkin",
+        "store":  "supervinylusa.com",
+        "rating":  5,
+        "text":  "efficient, knowledgeable, great communication",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Stephen Gurka III",
+        "store":  "elevatedstash.com",
+        "rating":  5,
+        "text":  "Great communication and work from Ivan. Will work with him again in the future. Thank you!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Marc Dietz",
+        "store":  "shreddog.com",
+        "rating":  5,
+        "text":  "Ivan communicated the details of his proposed solution, did the development quickly and answered follow-up questions clearly and quickly.  Great project and resource!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "g mc",
+        "store":  "oscargraves.com",
+        "rating":  5,
+        "text":  "Excellent turn around time and attention to detail. Confident and easy process.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Rahul Thakrar",
+        "store":  "www.naiyaindianfashion.com",
+        "rating":  5,
+        "text":  "Ivan was awesome! He was quick and knows he\u0027s. I highly, highly recommend him.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Nick Majors",
+        "store":  "www.zendencandles.com",
+        "rating":  5,
+        "text":  "Excellent work. Very professional with great communications!  Thank You!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "g mc",
+        "store":  "oscargraves.com",
+        "rating":  5,
+        "text":  "Another great job Ivan - fast, reliable and easy communiation!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Nick Majors",
+        "store":  "www.zendencandles.com",
+        "rating":  5,
+        "text":  "Second job this week that I sent a to Ivan - and once again - he performed excellently and to my full satisfaction! Keep up the great work.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "g mc",
+        "store":  "oscargraves.com",
+        "rating":  5,
+        "text":  "Great working with Ivan!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Henry Baker",
+        "store":  "www.highbornlondon.com",
+        "rating":  5,
+        "text":  "As always absolutely first class work from Ivan. Can\u0027t thank you enough.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Karen Young",
+        "store":  "www.ouishave.com",
+        "rating":  5,
+        "text":  "Quick and great to work with!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Cynthia Nielson",
+        "store":  "magtrim.com",
+        "rating":  5,
+        "text":  "Thank you SOOOOO much IVAN!!!!  You did a FANTASTIC job!!!!!   I hope to hire you again! He turned this job around in just a few hours!!!!! Super easy to communicate with and super nice!  A great experience!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michael Morales",
+        "store":  "lbo-dev-st.myshopify.com, anoralp.com, ptw-dev-shop.myshopify.com, courdeslys.com, martinecosmetics.com, www.madlords.com",
+        "rating":  5,
+        "text":  "Amazing! Ivan was extremely reactive and made sure the job was perfectly done. Will definitely contact him again",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Alesya",
+        "store":  "uniqers.online",
+        "rating":  5,
+        "text":  "Thats my first experience with Storetasker.com, 100% satisfied , Ivan is very professional , everything is done fast. Highly recommend Ivan for your cooperation.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Alesya",
+        "store":  "uniqers.online",
+        "rating":  5,
+        "text":  "Once again want to say that it was my pleasure to work with Ivan! He has done everything what i asked for, even helped me to make some little changes for my previous task. Thank you, Ivan !",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Alesya",
+        "store":  "uniqers.online",
+        "rating":  5,
+        "text":  "Great job as usually!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Alesya",
+        "store":  "uniqers.online",
+        "rating":  5,
+        "text":  "Great cooperation as usually!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Alesya",
+        "store":  "uniqers.online",
+        "rating":  5,
+        "text":  "Very satisfied with Ivan\u0027s job! Recommend to all",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michael Morales",
+        "store":  "lbo-dev-st.myshopify.com, anoralp.com, ptw-dev-shop.myshopify.com, courdeslys.com, martinecosmetics.com, www.madlords.com",
+        "rating":  5,
+        "text":  "Ivan was amazing once again! He pays great attention to detail and makes sure the job is done to perfection. I will continue to call upon him.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michael Morales",
+        "store":  "lbo-dev-st.myshopify.com, anoralp.com, ptw-dev-shop.myshopify.com, courdeslys.com, martinecosmetics.com, www.madlords.com",
+        "rating":  5,
+        "text":  "Awesome as usual!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Finn Lagun",
+        "store":  "pastaevangelists.com",
+        "rating":  5,
+        "text":  "Very helpful, thanks Ivan",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michael Morales",
+        "store":  "lbo-dev-st.myshopify.com, anoralp.com, ptw-dev-shop.myshopify.com, courdeslys.com, martinecosmetics.com, www.madlords.com",
+        "rating":  5,
+        "text":  "Great as usual!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michael Morales",
+        "store":  "lbo-dev-st.myshopify.com, anoralp.com, ptw-dev-shop.myshopify.com, courdeslys.com, martinecosmetics.com, www.madlords.com",
+        "rating":  5,
+        "text":  "Two thumbs up! Ivan was awesome.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michael Morales",
+        "store":  "lbo-dev-st.myshopify.com, anoralp.com, ptw-dev-shop.myshopify.com, courdeslys.com, martinecosmetics.com, www.madlords.com",
+        "rating":  5,
+        "text":  "Ivan was amazing once again. He provided great advice and got the job done in no time!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michael Morales",
+        "store":  "lbo-dev-st.myshopify.com, anoralp.com, ptw-dev-shop.myshopify.com, courdeslys.com, martinecosmetics.com, www.madlords.com",
+        "rating":  5,
+        "text":  "Amazing as usual! Ivan went above and beyond our expectations",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michael Morales",
+        "store":  "lbo-dev-st.myshopify.com, anoralp.com, ptw-dev-shop.myshopify.com, courdeslys.com, martinecosmetics.com, www.madlords.com",
+        "rating":  5,
+        "text":  "Ivan was awesome at getting this job done to the slightest detail!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michael Morales",
+        "store":  "lbo-dev-st.myshopify.com, anoralp.com, ptw-dev-shop.myshopify.com, courdeslys.com, martinecosmetics.com, www.madlords.com",
+        "rating":  5,
+        "text":  "Ivan was amazing once again! We had a complicated job and he put a lot of time into finding a solution. It\u0027s such a pleasure to work with him!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Tobias Errboe",
+        "store":  "stenogflise.dk, shop.maybrittkrewald.com",
+        "rating":  5,
+        "text":  "It was really great working with Ivan",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Tobias Errboe",
+        "store":  "stenogflise.dk, shop.maybrittkrewald.com",
+        "rating":  5,
+        "text":  "My second time working with Ivan. Great results as expected.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Gavin Smith",
+        "store":  "www.tradeprices.com",
+        "rating":  5,
+        "text":  "Found a hugely reliable and fast project worker in Ivan, amazing ethic and easy to communicate with. Will use over and over again!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Gavin Smith",
+        "store":  "www.tradeprices.com",
+        "rating":  5,
+        "text":  "Ivan is fantastic! You ask he does! simple but fantastic.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Gavin Smith",
+        "store":  "www.tradeprices.com",
+        "rating":  5,
+        "text":  "As always Ivan has been Fantastic!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Gavin Smith",
+        "store":  "www.tradeprices.com",
+        "rating":  5,
+        "text":  "Fantastic as always! Will always use Ivan.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Gavin Smith",
+        "store":  "www.tradeprices.com",
+        "rating":  5,
+        "text":  "As always Ivan is great to work with.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Gavin Smith",
+        "store":  "www.tradeprices.com",
+        "rating":  5,
+        "text":  "Always great working with Ivan, you ask, you get!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Amelia King",
+        "store":  "giantoy.com, www.giantoy.com",
+        "rating":  5,
+        "text":  "Great as usual. рџ‰",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michael Morales",
+        "store":  "lbo-dev-st.myshopify.com, anoralp.com, ptw-dev-shop.myshopify.com, courdeslys.com, martinecosmetics.com, www.madlords.com",
+        "rating":  5,
+        "text":  "Ivan was great as usual! Highly recommend him :)",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Guilherme Oliveira",
+        "store":  "danhenrywatches.com",
+        "rating":  5,
+        "text":  "Great works as usual, thank you Ivan.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Hauge From",
+        "store":  "6gadget.com, bremt.com, teemium.com",
+        "rating":  5,
+        "text":  "Great as always",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Arsen Bobiak",
+        "store":  "cultnaked.com",
+        "rating":  5,
+        "text":  "Ivan is a very patient and good expert. Very thankful for his job. Will contact him again, if I have any questions! Recommended.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Kahn Hogg",
+        "store":  "www.sistasomewhere.com",
+        "rating":  5,
+        "text":  "Once again, great work Ivan!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Amelia King",
+        "store":  "giantoy.com, www.giantoy.com",
+        "rating":  5,
+        "text":  "A returned client, happy every time.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Moreno Aguiar",
+        "store":  "borana.com.br",
+        "rating":  5,
+        "text":  "returning client, still keep doing a great job",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michael Morales",
+        "store":  "lbo-dev-st.myshopify.com, anoralp.com, ptw-dev-shop.myshopify.com, courdeslys.com, martinecosmetics.com, www.madlords.com",
+        "rating":  5,
+        "text":  "Great as usual!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Amelia King",
+        "store":  "giantoy.com, www.giantoy.com",
+        "rating":  5,
+        "text":  "Thanks again!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Teemu Tolonen",
+        "store":  "speybros.com",
+        "rating":  5,
+        "text":  "Always great work",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Marcos Ortega",
+        "store":  "",
+        "rating":  5,
+        "text":  "I hired Ivan several times - he\u0027s my go to developer.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Guilherme Oliveira",
+        "store":  "danhenrywatches.com",
+        "rating":  5,
+        "text":  "Great as always, thank you Ivan!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Ed Hodge",
+        "store":  "poseidon-equine.com",
+        "rating":  5,
+        "text":  "Ivan is a delight to work with - he\u0027s great at development, and even better, his communication is amazing!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Amelia King",
+        "store":  "giantoy.com, www.giantoy.com",
+        "rating":  5,
+        "text":  "Will be coming back soon ~ Only trust Ivan\u0027s work! рџ‘ѕ",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Rudy Farr-Leander",
+        "store":  "www.myla.com",
+        "rating":  5,
+        "text":  "Best Shopify dev i have worked with, work is impeccable and thorough.; Thanks Ivan",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Firas Kamourieh",
+        "store":  "onedenim.com",
+        "rating":  5,
+        "text":  "thanks again for the great job Ivan!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michael Morales",
+        "store":  "lbo-dev-st.myshopify.com, anoralp.com, ptw-dev-shop.myshopify.com, courdeslys.com, martinecosmetics.com, www.madlords.com",
+        "rating":  5,
+        "text":  "Awesome as usual!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Rudy Farr-Leander",
+        "store":  "www.myla.com",
+        "rating":  5,
+        "text":  "Perfect thanks",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michael Morales",
+        "store":  "lbo-dev-st.myshopify.com, anoralp.com, ptw-dev-shop.myshopify.com, courdeslys.com, martinecosmetics.com, www.madlords.com",
+        "rating":  5,
+        "text":  "Great as usual!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Rudy Farr-Leander",
+        "store":  "www.myla.com",
+        "rating":  5,
+        "text":  "Perfect Work again",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Ed Hodge",
+        "store":  "poseidon-equine.com",
+        "rating":  5,
+        "text":  "Ivan is great at what he does :)",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Lisa Haggard",
+        "store":  "tote-stories.myshopify.com",
+        "rating":  5,
+        "text":  "Excellent, proffessional and very quick service! On point! :D",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Julian Sherr",
+        "store":  "theamishhouse.com",
+        "rating":  5,
+        "text":  "Quick and seamless project!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Blake Charvoz",
+        "store":  "www.upspringbaby.com, batelle-inc.myshopify.com, batelle.com, pixelrocketapps.com, koalaqa.com",
+        "rating":  5,
+        "text":  "love working with ivan as always",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Julian Sherr",
+        "store":  "theamishhouse.com",
+        "rating":  5,
+        "text":  "Seamless project!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michael Morales",
+        "store":  "lbo-dev-st.myshopify.com, anoralp.com, ptw-dev-shop.myshopify.com, courdeslys.com, martinecosmetics.com, www.madlords.com",
+        "rating":  5,
+        "text":  "Great as usual!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Chris Pegut",
+        "store":  "broadstreetstyle.com",
+        "rating":  5,
+        "text":  "Perfect! Thank you for the fast turnaround.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Sarah",
+        "store":  "stylestruck.com.au",
+        "rating":  5,
+        "text":  "Easy communication and quick work",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Blake Charvoz",
+        "store":  "www.upspringbaby.com, batelle-inc.myshopify.com, batelle.com, pixelrocketapps.com, koalaqa.com",
+        "rating":  5,
+        "text":  "Another solid job by Ivan",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Daniel Pioch",
+        "store":  "www.montario.de",
+        "rating":  5,
+        "text":  "everything great",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Henry Baker",
+        "store":  "www.highbornlondon.com",
+        "rating":  5,
+        "text":  "As always Ivan delivered exactly what\u0027s needed in super-fast time with zero hassle. Brilliant!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Lisa Haggard",
+        "store":  "tote-stories.myshopify.com",
+        "rating":  5,
+        "text":  "Always quick to reply and gets to work right away. Good understanding of the tasks in question and flexible to adjustments along the way! рџ‘ЌрџЏјрџ¤©",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michael Morales",
+        "store":  "lbo-dev-st.myshopify.com, anoralp.com, ptw-dev-shop.myshopify.com, courdeslys.com, martinecosmetics.com, www.madlords.com",
+        "rating":  5,
+        "text":  "Great as usual!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "idriss nestor",
+        "store":  "aoxeyewear.com",
+        "rating":  5,
+        "text":  "Excellent service, fast and efficient!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Henry Baker",
+        "store":  "www.highbornlondon.com",
+        "rating":  5,
+        "text":  "The best as always!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Julie Johnson",
+        "store":  "www.mavenmetals.com",
+        "rating":  5,
+        "text":  "Professional work and great communication! Thank you for completing our custom request quickly and perfectly. So great to work with you again!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Christina Stevens",
+        "store":  "sdaraskin.com",
+        "rating":  5,
+        "text":  "Great!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Ercan Aziz",
+        "store":  "www.abroco.com",
+        "rating":  5,
+        "text":  "Excellent service, efficient communication \u0026 quality work delivery. Great experience would definitely recommend.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Christina Stevens",
+        "store":  "sdaraskin.com",
+        "rating":  5,
+        "text":  "Very quick to get everything complete!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Gary Parkin",
+        "store":  "supervinylusa.com",
+        "rating":  5,
+        "text":  "super efficient, knowedgeable, perfect experience!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Rudy Farr-Leander",
+        "store":  "www.myla.com",
+        "rating":  5,
+        "text":  "Excellent work again thank you Ivan",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Navin Ramharak",
+        "store":  "inthelab.tv",
+        "rating":  5,
+        "text":  "Excellent and fast turnaround!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Navin Ramharak",
+        "store":  "inthelab.tv",
+        "rating":  5,
+        "text":  "Amazing service as usual",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Rudy Farr-Leander",
+        "store":  "www.myla.com",
+        "rating":  5,
+        "text":  "as always amazing work, always use Ivan!!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michael Morales",
+        "store":  "lbo-dev-st.myshopify.com, anoralp.com, ptw-dev-shop.myshopify.com, courdeslys.com, martinecosmetics.com, www.madlords.com",
+        "rating":  5,
+        "text":  "Great as usual!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Ian Batt",
+        "store":  "www.herbalmagic.ca, www.firstladyproducts.com, artisanphoenix.myshopify.com",
+        "rating":  5,
+        "text":  "Fast turnaround, delivered on all our custom requirements, and great quality work. Highly recommended.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Rudy Farr-Leander",
+        "store":  "www.myla.com",
+        "rating":  5,
+        "text":  "great work as usual",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michael Morales",
+        "store":  "lbo-dev-st.myshopify.com, anoralp.com, ptw-dev-shop.myshopify.com, courdeslys.com, martinecosmetics.com, www.madlords.com",
+        "rating":  5,
+        "text":  "Great as usual!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Navin Ramharak",
+        "store":  "inthelab.tv",
+        "rating":  5,
+        "text":  "Amazing again thanks Ivan!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Ed Hodge",
+        "store":  "poseidon-equine.com",
+        "rating":  5,
+        "text":  "Love working with Ivan!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Teemu Tolonen",
+        "store":  "speybros.com",
+        "rating":  5,
+        "text":  "Always easy , quick and good work",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michael Morales",
+        "store":  "lbo-dev-st.myshopify.com, anoralp.com, ptw-dev-shop.myshopify.com, courdeslys.com, martinecosmetics.com, www.madlords.com",
+        "rating":  5,
+        "text":  "Great as usual!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michael Morales",
+        "store":  "lbo-dev-st.myshopify.com, anoralp.com, ptw-dev-shop.myshopify.com, courdeslys.com, martinecosmetics.com, www.madlords.com",
+        "rating":  5,
+        "text":  "Great as usual!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Rudy Farr-Leander",
+        "store":  "www.myla.com",
+        "rating":  5,
+        "text":  ".",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Rudy Farr-Leander",
+        "store":  "www.myla.com",
+        "rating":  5,
+        "text":  ".",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Jamie De La Haye",
+        "store":  "ballplayaofficial.com, www.smilesalign.com, www.smilesalliance.com.au, imprintmerch.com.au",
+        "rating":  5,
+        "text":  "Ivan is great to wrok with super fast and very knowledgeable will be back for may more projects. Thanks you",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michael Morales",
+        "store":  "lbo-dev-st.myshopify.com, anoralp.com, ptw-dev-shop.myshopify.com, courdeslys.com, martinecosmetics.com, www.madlords.com",
+        "rating":  5,
+        "text":  "Great as usual!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "idriss nestor",
+        "store":  "aoxeyewear.com",
+        "rating":  5,
+        "text":  "fast and efficient, great communication, great overall",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Mike Mierzwa",
+        "store":  "polishshirtstore.com, irishshirtstore.com",
+        "rating":  5,
+        "text":  "Ivan completed my project quickly as always! He is super responsive and helpful!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Ercan Aziz",
+        "store":  "www.abroco.com",
+        "rating":  5,
+        "text":  "Thanks again Ivan your work is perfect.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "idriss nestor",
+        "store":  "aoxeyewear.com",
+        "rating":  5,
+        "text":  "perfect as usual",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Rudy Farr-Leander",
+        "store":  "www.myla.com",
+        "rating":  5,
+        "text":  ".",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Christina Stevens",
+        "store":  "sdaraskin.com",
+        "rating":  5,
+        "text":  "Always very quick to finish projects.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Rudy Farr-Leander",
+        "store":  "www.myla.com",
+        "rating":  5,
+        "text":  ".",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michael Morales",
+        "store":  "lbo-dev-st.myshopify.com, anoralp.com, ptw-dev-shop.myshopify.com, courdeslys.com, martinecosmetics.com, www.madlords.com",
+        "rating":  5,
+        "text":  "Great as usual!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "idriss nestor",
+        "store":  "aoxeyewear.com",
+        "rating":  5,
+        "text":  "again great work from Ivan",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michael Morales",
+        "store":  "lbo-dev-st.myshopify.com, anoralp.com, ptw-dev-shop.myshopify.com, courdeslys.com, martinecosmetics.com, www.madlords.com",
+        "rating":  5,
+        "text":  "Great as usual!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Rudy Farr-Leander",
+        "store":  "www.myla.com",
+        "rating":  5,
+        "text":  ".",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Rudy Farr-Leander",
+        "store":  "www.myla.com",
+        "rating":  5,
+        "text":  ".",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "idriss nestor",
+        "store":  "aoxeyewear.com",
+        "rating":  5,
+        "text":  "excellent, excellent, excellent!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Ercan Aziz",
+        "store":  "www.abroco.com",
+        "rating":  5,
+        "text":  "Fantastic service, fast, efficient and great quality of work again.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Ercan Aziz",
+        "store":  "www.abroco.com",
+        "rating":  5,
+        "text":  "Fantastic service, fast, efficient and great quality of work again.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Ercan Aziz",
+        "store":  "www.abroco.com",
+        "rating":  5,
+        "text":  "Yet again, excellent responsive service, job completed quickly and to perfection.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Ercan Aziz",
+        "store":  "www.abroco.com",
+        "rating":  5,
+        "text":  "Excellent work, fast delivery once again!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "idriss nestor",
+        "store":  "aoxeyewear.com",
+        "rating":  5,
+        "text":  "perfect as usual",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "idriss nestor",
+        "store":  "aoxeyewear.com",
+        "rating":  5,
+        "text":  "Excellent as usual, Ivan never disappoints",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "idriss nestor",
+        "store":  "aoxeyewear.com",
+        "rating":  5,
+        "text":  "Excellent as usual, Ivan never disappoints",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Allie Pisarro-Grant",
+        "store":  "alcove.shop",
+        "rating":  5,
+        "text":  "Quick and communicative!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "idriss nestor",
+        "store":  "aoxeyewear.com",
+        "rating":  5,
+        "text":  "perfect as usual!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "idriss nestor",
+        "store":  "aoxeyewear.com",
+        "rating":  5,
+        "text":  "as usual!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Ercan Aziz",
+        "store":  "www.abroco.com",
+        "rating":  5,
+        "text":  "Excellent service, quality work, yet again delivered in a timely manner. 100% would recommend!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Sachin S",
+        "store":  "fluorostore.com",
+        "rating":  5,
+        "text":  "Ivan is very patient and thorough. He\u0027s great to work with and will work with him again!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "idriss nestor",
+        "store":  "aoxeyewear.com",
+        "rating":  5,
+        "text":  "great work again from Ivan, really great work",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michael Morales",
+        "store":  "lbo-dev-st.myshopify.com, anoralp.com, ptw-dev-shop.myshopify.com, courdeslys.com, martinecosmetics.com, www.madlords.com",
+        "rating":  5,
+        "text":  "Great as usual!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Gavin Smith",
+        "store":  "www.tradeprices.com",
+        "rating":  5,
+        "text":  "As always Ivan is responsive and does exactly what you ask. Fantastic!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Carol Ng",
+        "store":  "www.danmats.com",
+        "rating":  5,
+        "text":  "Thanks for the work : )",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Ian Stanford",
+        "store":  "www.pallet-trucksdirect.co.uk",
+        "rating":  5,
+        "text":  "Great work and repsonse as always.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Ercan Aziz",
+        "store":  "www.abroco.com",
+        "rating":  5,
+        "text":  "Perfect!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michael Morales",
+        "store":  "lbo-dev-st.myshopify.com, anoralp.com, ptw-dev-shop.myshopify.com, courdeslys.com, martinecosmetics.com, www.madlords.com",
+        "rating":  5,
+        "text":  "Amazing as usual!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Mike Mierzwa",
+        "store":  "polishshirtstore.com, irishshirtstore.com",
+        "rating":  5,
+        "text":  "Fast work as always!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michael Morales",
+        "store":  "lbo-dev-st.myshopify.com, anoralp.com, ptw-dev-shop.myshopify.com, courdeslys.com, martinecosmetics.com, www.madlords.com",
+        "rating":  5,
+        "text":  "Amazing as usual!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Ercan Aziz",
+        "store":  "www.abroco.com",
+        "rating":  5,
+        "text":  "Excellent service \u0026 quality of work again!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Gavin Smith",
+        "store":  "www.tradeprices.com",
+        "rating":  5,
+        "text":  "Once again fantastic work by Ivan.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Gavin Smith",
+        "store":  "www.tradeprices.com",
+        "rating":  5,
+        "text":  "Fantastic as always!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Cristina Madoch",
+        "store":  "www.toynk.com",
+        "rating":  5,
+        "text":  "Always great to work with Ivan",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michael Morales",
+        "store":  "lbo-dev-st.myshopify.com, anoralp.com, ptw-dev-shop.myshopify.com, courdeslys.com, martinecosmetics.com, www.madlords.com",
+        "rating":  5,
+        "text":  "Great as usual!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michael Morales",
+        "store":  "lbo-dev-st.myshopify.com, anoralp.com, ptw-dev-shop.myshopify.com, courdeslys.com, martinecosmetics.com, www.madlords.com",
+        "rating":  5,
+        "text":  "Awesome!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "idriss nestor",
+        "store":  "aoxeyewear.com",
+        "rating":  5,
+        "text":  "perfect as usual",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Cristina Madoch",
+        "store":  "www.toynk.com",
+        "rating":  5,
+        "text":  "Ivan is great -  very responsive and very personable.   It\u0027s always a pleasure to work with him : )",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Navin Ramharak",
+        "store":  "inthelab.tv",
+        "rating":  5,
+        "text":  "Amazing as always!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Navin Ramharak",
+        "store":  "inthelab.tv",
+        "rating":  5,
+        "text":  "Amazing as always!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michael Morales",
+        "store":  "lbo-dev-st.myshopify.com, anoralp.com, ptw-dev-shop.myshopify.com, courdeslys.com, martinecosmetics.com, www.madlords.com",
+        "rating":  5,
+        "text":  "Amazing as usual!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Cristina Madoch",
+        "store":  "www.toynk.com",
+        "rating":  5,
+        "text":  "Ivan is the BEST : )  : )  : )",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Amelia King",
+        "store":  "giantoy.com, www.giantoy.com",
+        "rating":  5,
+        "text":  "Thank you for Ivan\u0027s professional \u0026 speed work again!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michael Morales",
+        "store":  "lbo-dev-st.myshopify.com, anoralp.com, ptw-dev-shop.myshopify.com, courdeslys.com, martinecosmetics.com, www.madlords.com",
+        "rating":  5,
+        "text":  "Great as usual!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Ysolda Teague",
+        "store":  "ysolda.com",
+        "rating":  5,
+        "text":  "Ivan communicated clearly and made the changes I wanted quickly and efficiently. I\u0027m really pleased!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Andreas Muller",
+        "store":  "gornation.com",
+        "rating":  5,
+        "text":  "Thanks a lot Ivan, great work!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Wendell Young",
+        "store":  "sireguitarsusa.myshopify.com",
+        "rating":  5,
+        "text":  "I matched with a lot of experts here, but only Ivan accommodated me thoroughly. He did what I required of him to do, and delivered it very well.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Nic Sutherland",
+        "store":  "medlabrs.com",
+        "rating":  5,
+        "text":  "Clear, positive communication. Very efficient service. Thank you again.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michael Morales",
+        "store":  "lbo-dev-st.myshopify.com, anoralp.com, ptw-dev-shop.myshopify.com, courdeslys.com, martinecosmetics.com, www.madlords.com",
+        "rating":  5,
+        "text":  "Great as usual!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Nima Eamoni",
+        "store":  "www.petfast.com",
+        "rating":  5,
+        "text":  "Amazing support and very quick turnaround! Thanks fo the help :)",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Biswajit Sen",
+        "store":  "dailybuyys.com",
+        "rating":  5,
+        "text":  "Very Good",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Andreas Muller",
+        "store":  "gornation.com",
+        "rating":  5,
+        "text":  "Very nice! Satisfied as always. Nice and easy communication. Great job!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "shovial lin",
+        "store":  "www.unitek-products.com",
+        "rating":  5,
+        "text":  "works well, nice job, nice guy too.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Veselina",
+        "store":  "fabricfamily.co.uk",
+        "rating":  5,
+        "text":  "Good Work and amazing service.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Julie Johnson",
+        "store":  "www.mavenmetals.com",
+        "rating":  5,
+        "text":  "Provides great quick service!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Nima Eamoni",
+        "store":  "www.petfast.com",
+        "rating":  5,
+        "text":  "Great work and fast turnaround.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michael Morales",
+        "store":  "lbo-dev-st.myshopify.com, anoralp.com, ptw-dev-shop.myshopify.com, courdeslys.com, martinecosmetics.com, www.madlords.com",
+        "rating":  5,
+        "text":  "Great as usual!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Andreas Muller",
+        "store":  "gornation.com",
+        "rating":  5,
+        "text":  "Great as always! Thanks Ivan",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Cristina Madoch",
+        "store":  "www.toynk.com",
+        "rating":  5,
+        "text":  "Always a pleasure to work with Ivan : )",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Chris Hanks",
+        "store":  "www.petstuffgalore.co.uk",
+        "rating":  5,
+        "text":  "Very quick service - thank you.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Ervin",
+        "store":  "threechocolatiers.com.au, threechocolatiers.myshopify.com",
+        "rating":  5,
+        "text":  "Thank you. You are very responsive and works very fast as well. Well done!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Ervin",
+        "store":  "threechocolatiers.com.au, threechocolatiers.myshopify.com",
+        "rating":  5,
+        "text":  "Reliable as usual! Great job, Ivan :)",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Leonie Gisin",
+        "store":  "www.volkanicosmetics.com",
+        "rating":  5,
+        "text":  "Ivan was fast and willing to make an extra change at the end of the task. Appreciated it",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Henry Baker",
+        "store":  "www.highbornlondon.com",
+        "rating":  5,
+        "text":  "Super quick, and perfect delivery as always.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "idriss nestor",
+        "store":  "aoxeyewear.com",
+        "rating":  5,
+        "text":  "excellent as usual!!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Amrapali Singh",
+        "store":  "birdwalk-store.myshopify.com, wwww.birdwalk.in, www.birdwalk.in",
+        "rating":  5,
+        "text":  "Glad to have connected with Ivan , working with him was smooth, would like to work with him on future projects.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Ervin",
+        "store":  "threechocolatiers.com.au, threechocolatiers.myshopify.com",
+        "rating":  5,
+        "text":  "Very reliable and fast as usual!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Nima Eamoni",
+        "store":  "www.petfast.com",
+        "rating":  5,
+        "text":  "Ivan always does a great job - delivers as promised with super fast delivery and great communication.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Navin Ramharak",
+        "store":  "inthelab.tv",
+        "rating":  5,
+        "text":  "very fast and great service",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Navin Ramharak",
+        "store":  "inthelab.tv",
+        "rating":  5,
+        "text":  "very fast and great service",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Navin Ramharak",
+        "store":  "inthelab.tv",
+        "rating":  5,
+        "text":  "very fast and great service",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Navin Ramharak",
+        "store":  "inthelab.tv",
+        "rating":  5,
+        "text":  "very fast and great service!!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Navin Ramharak",
+        "store":  "inthelab.tv",
+        "rating":  5,
+        "text":  "very fast and great service!!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Navin Ramharak",
+        "store":  "inthelab.tv",
+        "rating":  5,
+        "text":  "very fast and great service!!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Navin Ramharak",
+        "store":  "inthelab.tv",
+        "rating":  5,
+        "text":  "very fast and great service!!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Navin Ramharak",
+        "store":  "inthelab.tv",
+        "rating":  5,
+        "text":  "very fast and great service!!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Navin Ramharak",
+        "store":  "inthelab.tv",
+        "rating":  5,
+        "text":  "very fast and great service!!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Navin Ramharak",
+        "store":  "inthelab.tv",
+        "rating":  5,
+        "text":  "very fast and great service!!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Navin Ramharak",
+        "store":  "inthelab.tv",
+        "rating":  5,
+        "text":  "very fast and great service!!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Navin Ramharak",
+        "store":  "inthelab.tv",
+        "rating":  5,
+        "text":  "very fast and great service!!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Navin Ramharak",
+        "store":  "inthelab.tv",
+        "rating":  5,
+        "text":  "very fast and great service!!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Navin Ramharak",
+        "store":  "inthelab.tv",
+        "rating":  5,
+        "text":  "very fast and great service!!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Biswajit Sen",
+        "store":  "dailybuyys.com",
+        "rating":  5,
+        "text":  "We are very much satisfied with his work,very responsive and up to markрџ‘Ќ Looking forward for more future engagement!!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Ervin",
+        "store":  "threechocolatiers.com.au, threechocolatiers.myshopify.com",
+        "rating":  5,
+        "text":  "Fantastic!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Felicia",
+        "store":  "www.realdesignerdeals.com",
+        "rating":  5,
+        "text":  "Finally between conversations and many images we got the project sorted and finalised.  Ivan was diligent and consistent.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "idriss nestor",
+        "store":  "aoxeyewear.com",
+        "rating":  5,
+        "text":  "as usual",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Ercan Aziz",
+        "store":  "www.abroco.com",
+        "rating":  5,
+        "text":  "Excellent work many thanks",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Ercan Aziz",
+        "store":  "www.abroco.com",
+        "rating":  5,
+        "text":  "Excellent work many thanks",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Ercan Aziz",
+        "store":  "www.abroco.com",
+        "rating":  5,
+        "text":  "Excellent work many thanks",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Ercan Aziz",
+        "store":  "www.abroco.com",
+        "rating":  5,
+        "text":  "Excellent work thanks again",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Ercan Aziz",
+        "store":  "www.abroco.com",
+        "rating":  5,
+        "text":  "Excellent work thanks again",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Ercan Aziz",
+        "store":  "www.abroco.com",
+        "rating":  5,
+        "text":  "Excellent work thanks again",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Ercan Aziz",
+        "store":  "www.abroco.com",
+        "rating":  5,
+        "text":  "Excellent work thanks again",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Ercan Aziz",
+        "store":  "www.abroco.com",
+        "rating":  5,
+        "text":  "Excellent work thanks again",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Ercan Aziz",
+        "store":  "www.abroco.com",
+        "rating":  5,
+        "text":  "Excellent work thanks again",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Emmie",
+        "store":  "www.shopemisa.com, www.genkiofficial.com",
+        "rating":  5,
+        "text":  "First task with Ivan and he did exactly what I wanted! Quick and amazing job done!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Emmie",
+        "store":  "www.shopemisa.com, www.genkiofficial.com",
+        "rating":  5,
+        "text":  "First task with Ivan and he did exactly what I wanted! Quick and amazing job done!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "lois cangemi",
+        "store":  "daenerys-shop.com, www.xayah-shop.com",
+        "rating":  5,
+        "text":  "Thank you very much, quality work. Corresponds to my expectation",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Zamil Islam",
+        "store":  "myshopify.naturelrx.com, naturelrx.com",
+        "rating":  5,
+        "text":  "Ivan does amazing work. He is very timely and completes all projects to my liking. His expertise is phenomenal and I would recommend him to anyone",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Zamil Islam",
+        "store":  "myshopify.naturelrx.com, naturelrx.com",
+        "rating":  5,
+        "text":  "Ivan does amazing work. He is very timely and completes all projects to my liking. His expertise is phenomenal and I would recommend him to anyone",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Zamil Islam",
+        "store":  "myshopify.naturelrx.com, naturelrx.com",
+        "rating":  5,
+        "text":  "Fantastic work as always!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Zamil Islam",
+        "store":  "myshopify.naturelrx.com, naturelrx.com",
+        "rating":  5,
+        "text":  "Fantastic work as always!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Veselina",
+        "store":  "fabricfamily.co.uk",
+        "rating":  5,
+        "text":  "Amazing design and outcome",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Amelia King",
+        "store":  "giantoy.com, www.giantoy.com",
+        "rating":  5,
+        "text":  "A returned \u0026 always happy client. рџҐі",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "idriss nestor",
+        "store":  "aoxeyewear.com",
+        "rating":  5,
+        "text":  "no need to compliment Ivan anymore!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "idriss nestor",
+        "store":  "aoxeyewear.com",
+        "rating":  5,
+        "text":  "as usual!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michael Morales",
+        "store":  "lbo-dev-st.myshopify.com, anoralp.com, ptw-dev-shop.myshopify.com, courdeslys.com, martinecosmetics.com, www.madlords.com",
+        "rating":  5,
+        "text":  "Great as usual!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michael Morales",
+        "store":  "lbo-dev-st.myshopify.com, anoralp.com, ptw-dev-shop.myshopify.com, courdeslys.com, martinecosmetics.com, www.madlords.com",
+        "rating":  5,
+        "text":  "Perfect as usual!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michael Morales",
+        "store":  "lbo-dev-st.myshopify.com, anoralp.com, ptw-dev-shop.myshopify.com, courdeslys.com, martinecosmetics.com, www.madlords.com",
+        "rating":  5,
+        "text":  "Amazing as usual!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Guilherme Oliveira",
+        "store":  "danhenrywatches.com",
+        "rating":  5,
+        "text":  "Good as always.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michael Morales",
+        "store":  "lbo-dev-st.myshopify.com, anoralp.com, ptw-dev-shop.myshopify.com, courdeslys.com, martinecosmetics.com, www.madlords.com",
+        "rating":  5,
+        "text":  "Amazing as usual!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "lois cangemi",
+        "store":  "daenerys-shop.com, www.xayah-shop.com",
+        "rating":  5,
+        "text":  "fast and efficient, thanks again",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Hugh Conway",
+        "store":  "www.sconch.com",
+        "rating":  5,
+        "text":  "Speedy service. Responded to all requests and then delivered on time and budget.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Cristina Madoch",
+        "store":  "www.toynk.com",
+        "rating":  5,
+        "text":  "Always a pleasure!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Brooke",
+        "store":  "spares.unitedtoolsburleigh.com.au",
+        "rating":  5,
+        "text":  "Thanks again for your fast help and fabulous work.  :)",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Andreas Muller",
+        "store":  "gornation.com",
+        "rating":  5,
+        "text":  "Great as always, thanks Ivan!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michael Morales",
+        "store":  "lbo-dev-st.myshopify.com, anoralp.com, ptw-dev-shop.myshopify.com, courdeslys.com, martinecosmetics.com, www.madlords.com",
+        "rating":  5,
+        "text":  "Great as usual!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Andreas Muller",
+        "store":  "gornation.com",
+        "rating":  5,
+        "text":  "Awesome as always. Easy communication, well done work ! Thanks Ivan!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Gavin Smith",
+        "store":  "www.tradeprices.com",
+        "rating":  5,
+        "text":  "Fabulous as always, thanks Ivan!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Fiona Pincente",
+        "store":  "to112-ca.myshopify.com",
+        "rating":  5,
+        "text":  "So fast and easy! Ivan figured it out for us quickly and got it set up in two stores.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Abhi R",
+        "store":  "www.lenyhavn.com",
+        "rating":  5,
+        "text":  "Ivan was absolutely great. Great communication and really fast delivery that met all my expectations! Would love to work again on other projects.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Abhi R",
+        "store":  "www.lenyhavn.com",
+        "rating":  5,
+        "text":  "Second-time working with Ivan. Really fast delivery as usual and great communication! Will work with him again in future. Feel free to book him, you would definitely enjoy collaborating with him without a doubt!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Abhi R",
+        "store":  "www.lenyhavn.com",
+        "rating":  5,
+        "text":  "Ivan is great as usual! Superfast delivery and easy communication!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Abhi R",
+        "store":  "www.lenyhavn.com",
+        "rating":  5,
+        "text":  "Ivan is great as usual!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Abhi R",
+        "store":  "www.lenyhavn.com",
+        "rating":  5,
+        "text":  "Great work as usual! This is our fourth or fifth time working with Ivan!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Abhi R",
+        "store":  "www.lenyhavn.com",
+        "rating":  5,
+        "text":  "Ivan is great as usual!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Henry Baker",
+        "store":  "www.highbornlondon.com",
+        "rating":  5,
+        "text":  "First class as always! Thank you Ivan, it\u0027s great to have someone so skilled we can rely on/",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michael Morales",
+        "store":  "lbo-dev-st.myshopify.com, anoralp.com, ptw-dev-shop.myshopify.com, courdeslys.com, martinecosmetics.com, www.madlords.com",
+        "rating":  5,
+        "text":  "Amazing as usual!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "idriss nestor",
+        "store":  "aoxeyewear.com",
+        "rating":  5,
+        "text":  "PERFECT AS USUAL",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Samantha Wu",
+        "store":  "garageutility.com, topamericangarage.com",
+        "rating":  5,
+        "text":  "Ivan is fantastic! We\u0027ll be using him again and again. He is super knowledgeable and has a \"can-do\" attitude. While many other developers seemed to be confused with what we want done and thus quoting several hours, Ivan on the other hand knows exactly what we want and just gets it done. Fantastic!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Adam Wegener",
+        "store":  "www.trashamps.com",
+        "rating":  5,
+        "text":  "He does good work. He is prompt and a good communicator.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michael Morales",
+        "store":  "lbo-dev-st.myshopify.com, anoralp.com, ptw-dev-shop.myshopify.com, courdeslys.com, martinecosmetics.com, www.madlords.com",
+        "rating":  5,
+        "text":  "Amazing as usual!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Andreas Muller",
+        "store":  "gornation.com",
+        "rating":  5,
+        "text":  "Awesome as always!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Kaz Jackson",
+        "store":  "www.martinyork.com.au",
+        "rating":  5,
+        "text":  "So helpful, prompt at replying and a very lovely manner.  Thanks Ivan",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michael Morales",
+        "store":  "lbo-dev-st.myshopify.com, anoralp.com, ptw-dev-shop.myshopify.com, courdeslys.com, martinecosmetics.com, www.madlords.com",
+        "rating":  5,
+        "text":  "Perfect as usual!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Cynthia Jane Evans",
+        "store":  "ma-and-pembum.myshopify.com",
+        "rating":  5,
+        "text":  "Ivan provided EXCELLENT, PROFESSIONAL and QUICK help when I needed it most!  I am a web designer not used to working in Shopify and Ivan was able to do advanced level programming I didn\u0027t feel comfortable with in order to duplicate layouts and make them unique from each other (prior to his help, I could only make all the pages the same content, now they each have the same layout but with unique content). Despite the time change, he also worked late into the night to get the job done fast.  Thank you, IVAN, I will hire you again in a heartbeat on any future project.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Merry Vose",
+        "store":  "cabanacanary.myshopify.com, cabanacanary.com",
+        "rating":  5,
+        "text":  "Completed the project so quickly and did exactly what we asked. Thank you!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michael Morales",
+        "store":  "lbo-dev-st.myshopify.com, anoralp.com, ptw-dev-shop.myshopify.com, courdeslys.com, martinecosmetics.com, www.madlords.com",
+        "rating":  5,
+        "text":  "Amazing as usual!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michael Morales",
+        "store":  "lbo-dev-st.myshopify.com, anoralp.com, ptw-dev-shop.myshopify.com, courdeslys.com, martinecosmetics.com, www.madlords.com",
+        "rating":  5,
+        "text":  "Perfect as usual!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Allie Pisarro-Grant",
+        "store":  "alcove.shop",
+        "rating":  5,
+        "text":  "I always enjoy working with Ivan.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Paul Nett",
+        "store":  "shop.duckfootbeer.com",
+        "rating":  5,
+        "text":  "Ivan is talented, and helped with my questions regarding the work he did.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Cynthia Jane Evans",
+        "store":  "ma-and-pembum.myshopify.com",
+        "rating":  5,
+        "text":  "thank you, again.  I think it will work.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Lisa Fabbro",
+        "store":  "periodaisle.com",
+        "rating":  5,
+        "text":  "Ivan is 100% a pleasure to work with and has completely renewed my faith in working with someone via Storetasker. Thank you so much for all of your help, Ivan!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Veselina",
+        "store":  "fabricfamily.co.uk",
+        "rating":  5,
+        "text":  "great",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Abhi R",
+        "store":  "www.lenyhavn.com",
+        "rating":  5,
+        "text":  "Ivan is great as usual!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Filippo Toccafondi",
+        "store":  "www.furybags.it",
+        "rating":  5,
+        "text":  "great",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michael Dalic",
+        "store":  "fawnandme.com.au, www.chocolatefreckles.com.au",
+        "rating":  5,
+        "text":  "Professional, quick and easy. Thank you.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Andreas Muller",
+        "store":  "gornation.com",
+        "rating":  5,
+        "text":  "Awesome as always, thanks a lot for helping to improve our store!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Nisha Phatak",
+        "store":  "prenjewelry.com",
+        "rating":  5,
+        "text":  "Ivan was great - super fast to make changes",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Amelia King",
+        "store":  "giantoy.com, www.giantoy.com",
+        "rating":  5,
+        "text":  "Thank you for your accurate \u0026 efficient work again!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michael Morales",
+        "store":  "lbo-dev-st.myshopify.com, anoralp.com, ptw-dev-shop.myshopify.com, courdeslys.com, martinecosmetics.com, www.madlords.com",
+        "rating":  5,
+        "text":  "Great as usual!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Cristina Madoch",
+        "store":  "www.toynk.com",
+        "rating":  5,
+        "text":  "Always awesome : )",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Jamie De La Haye",
+        "store":  "ballplayaofficial.com, www.smilesalign.com, www.smilesalliance.com.au, imprintmerch.com.au",
+        "rating":  5,
+        "text":  "Ivan is always great to work with I will be back for many more projects.10/10",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Magdalena Nowak",
+        "store":  "us.paul-rich.com, paul-rich.com",
+        "rating":  5,
+        "text":  "Ivan custom coded a solution for our store the same day, seamless work! Definitely will work with him in the future :)",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Natalie Grasso",
+        "store":  "",
+        "rating":  5,
+        "text":  "excellent",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Gary Parkin",
+        "store":  "supervinylusa.com",
+        "rating":  5,
+        "text":  "always good working with Ivan: knowledgeable + cool to work with",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Antoine Lescun",
+        "store":  "guesscanadawholesale.myshopify.com, development-theme-wholesale.myshopify.com, groupe-eleganza.myshopify.com",
+        "rating":  5,
+        "text":  "Small task but Ivan was super effective and comprehensive.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Gary Parkin",
+        "store":  "supervinylusa.com",
+        "rating":  5,
+        "text":  "Another great project with Ivan. Super good work + pleasure to work with",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Kieran Gabriel",
+        "store":  "prints.kierangabriel.com",
+        "rating":  5,
+        "text":  "Great response, quick and easy, did exactly what I wanted.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Lisa Haggard",
+        "store":  "tote-stories.myshopify.com",
+        "rating":  5,
+        "text":  "As always quick to get the job done and very professional. Attention to detail which I appreciate alot! :D",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Cristina Madoch",
+        "store":  "www.toynk.com",
+        "rating":  5,
+        "text":  "Always great to work with",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Amanda Woodcraft",
+        "store":  "a1adr3s1n3uh081s-26701496510.shopifypreview.com",
+        "rating":  5,
+        "text":  "Excellent communication, quick service and very pleased with the results :)",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "idriss nestor",
+        "store":  "aoxeyewear.com",
+        "rating":  5,
+        "text":  "excellent and fast",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Wing Witthuhn",
+        "store":  "speakmpls.com, glassladderco.com",
+        "rating":  5,
+        "text":  "Ivan was great and super responsive! I would totally work with him again!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "idriss nestor",
+        "store":  "aoxeyewear.com",
+        "rating":  5,
+        "text":  "excellent and fast",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Miguel",
+        "store":  "www.franandcojewelry.com",
+        "rating":  5,
+        "text":  "Thank you, completed project quickly and efficiently.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "idriss nestor",
+        "store":  "aoxeyewear.com",
+        "rating":  5,
+        "text":  "great!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Jeff Criswell",
+        "store":  "t-sciple.com, t-sciple.com.myshopify.com",
+        "rating":  5,
+        "text":  "Thank you for your hard work.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Nisha Phatak",
+        "store":  "prenjewelry.com",
+        "rating":  5,
+        "text":  "Super fast as always!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Denise Finch",
+        "store":  "carathea.co.uk",
+        "rating":  5,
+        "text":  "I\u0027m pleased with what Ivan has done and he took the trouble to explain how to add/amend parts of it myself as I need to.  Thank you Ivan. :-)",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Angela Adamo",
+        "store":  "luvrswim.com",
+        "rating":  5,
+        "text":  "amazing help!!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Ercan Aziz",
+        "store":  "www.abroco.com",
+        "rating":  5,
+        "text":  "Excellent support, fast communication and quality developer. Would highly recommend.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Kurtis Warren",
+        "store":  "houseoffunkbrewing.myshopify.com",
+        "rating":  5,
+        "text":  "Super quick, responsive, and made changes the the schema for easy changes in the future!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "CJ Hersch",
+        "store":  "www.activintimates.com",
+        "rating":  5,
+        "text":  "Very efficient process for updating my website. Ivan has been great to work with!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Gary Parkin",
+        "store":  "supervinylusa.com",
+        "rating":  5,
+        "text":  "always a pleasure to work with!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Gary Parkin",
+        "store":  "supervinylusa.com",
+        "rating":  5,
+        "text":  "Work with Ivan, he\u0027s skilled and cool !",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Kaimana Brunei",
+        "store":  "kaimanaliving.com",
+        "rating":  5,
+        "text":  "Ivan is very responsive, and did everything I asked. Great service! Would definitely work with him again. Thanks Ivan!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michelle Kartchner",
+        "store":  "choosefriendship.com",
+        "rating":  5,
+        "text":  "He was very helpful in answering my questions and completed the task quickly!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Ricky Ngo",
+        "store":  "prxsper.com",
+        "rating":  5,
+        "text":  "communicative and quick",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "idriss nestor",
+        "store":  "aoxeyewear.com",
+        "rating":  5,
+        "text":  "great!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michael Morales",
+        "store":  "lbo-dev-st.myshopify.com, anoralp.com, ptw-dev-shop.myshopify.com, courdeslys.com, martinecosmetics.com, www.madlords.com",
+        "rating":  5,
+        "text":  "Amazing as usual!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michael Morales",
+        "store":  "lbo-dev-st.myshopify.com, anoralp.com, ptw-dev-shop.myshopify.com, courdeslys.com, martinecosmetics.com, www.madlords.com",
+        "rating":  5,
+        "text":  "Perfect!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Julie Paulino Yenicag",
+        "store":  "julieandev.com",
+        "rating":  5,
+        "text":  "Great to work with.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michael Morales",
+        "store":  "lbo-dev-st.myshopify.com, anoralp.com, ptw-dev-shop.myshopify.com, courdeslys.com, martinecosmetics.com, www.madlords.com",
+        "rating":  5,
+        "text":  "Perfect like always!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Lindsay Rapp",
+        "store":  "lindsayrappgallery.com",
+        "rating":  5,
+        "text":  "So amazingly quick and accurate!!! he does an incredible job, always goes above and beyond what I ask for!!! He is one of my favorite go-to coders",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Ellie Sung",
+        "store":  "eh-custom.myshopify.com",
+        "rating":  5,
+        "text":  "He helped me twice and Ivan is very fast working person and he is very good at explain in easy way. I would recommend him to anyone who wants fast process and perfect project. Thanks! Ivan",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Lindsay Rapp",
+        "store":  "lindsayrappgallery.com",
+        "rating":  5,
+        "text":  "As always, Ivan went above and beyond to make sure all of my requests were met! I am so appreciative of Ivan and his support to me \u0026 my business.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Lindsay Rapp",
+        "store":  "lindsayrappgallery.com",
+        "rating":  5,
+        "text":  "Ivan is THE BEST IвЂ™ve ever worked with! He is so skilled, does such a thorough job, detail oriented, and is the most reliable person I have ever had the pleasure of communicating with too. He is my #1 go-to with everything on my website!!! I talk about how patient and kind he is with all my many requests with my co-workers and family, it feels like he is my friend! I canвЂ™t recommend him highly enough.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Lindsay Rapp",
+        "store":  "lindsayrappgallery.com",
+        "rating":  5,
+        "text":  "Knocked it out of the park ONCE AGAIN!!!! The best there is!!!!!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Greg Taube",
+        "store":  "famme.no",
+        "rating":  5,
+        "text":  "Ivan is fast and helpful рџ¤©",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Hilmar Binder",
+        "store":  "pop-is.myshopify.com, ibudin.is, dagnyogco.myshopify.com",
+        "rating":  5,
+        "text":  "Fantastic work, done fast and great and easy communication with Ivan. Can really recommend with his assistance. Great experience!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Michael Morales",
+        "store":  "lbo-dev-st.myshopify.com, anoralp.com, ptw-dev-shop.myshopify.com, courdeslys.com, martinecosmetics.com, www.madlords.com",
+        "rating":  5,
+        "text":  "Perfect as usual!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "chris oberg",
+        "store":  "xrtestmarket.myshopify.com, fast-ship-dev.myshopify.com, icouniforms.com, fastshipfacemask.com",
+        "rating":  5,
+        "text":  "Very fast and very accurate. Nailed what we asked for on the first try!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Greg Taube",
+        "store":  "famme.no",
+        "rating":  5,
+        "text":  "superfast as always!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "CJ Hersch",
+        "store":  "www.activintimates.com",
+        "rating":  5,
+        "text":  "Ivan is great to work with!  He\u0027s responsive and really efficient.  He also explains things well.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Lindsay Rapp",
+        "store":  "lindsayrappgallery.com",
+        "rating":  5,
+        "text":  "He is the best that there is!!! Nobody better than this guy for any coding or design needs! :)",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Greg Taube",
+        "store":  "famme.no",
+        "rating":  5,
+        "text":  "Ivan is an angel  рџ™Џ",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Filippo Toccafondi",
+        "store":  "www.furybags.it",
+        "rating":  5,
+        "text":  "Ivan is competent and professional. Recommended!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Abhi R",
+        "store":  "www.lenyhavn.com",
+        "rating":  5,
+        "text":  "Great as always!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Abhi R",
+        "store":  "www.lenyhavn.com",
+        "rating":  5,
+        "text":  "Another great project!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Andreas Muller",
+        "store":  "gornation.com",
+        "rating":  5,
+        "text":  "Great as always!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "fran k",
+        "store":  "bhavastudio.com",
+        "rating":  5,
+        "text":  "Great job, fast and clear communication!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Ricky Ngo",
+        "store":  "prxsper.com",
+        "rating":  5,
+        "text":  "fast and finished as promised",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Steven Van Bortel",
+        "store":  "mymosard.myshopify.com",
+        "rating":  5,
+        "text":  "Fast service and good implementation",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Glowy Skin Co",
+        "store":  "glowyskinstore.com",
+        "rating":  5,
+        "text":  "Amazing and super fast in delivery",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "CJ Hersch",
+        "store":  "www.activintimates.com",
+        "rating":  5,
+        "text":  "Ivan is great to work with... efficient and great communication!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Mario Toscano",
+        "store":  "kalleyflooring.myshopify.com, shop.malbe.co.za",
+        "rating":  5,
+        "text":  "Ivan was fast and professional.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Abhi R",
+        "store":  "www.lenyhavn.com",
+        "rating":  5,
+        "text":  "Amazing as always!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "steven Mckenny",
+        "store":  "",
+        "rating":  5,
+        "text":  "Perfectly implemented an \u0027add to cart\u0027 option for my products. A pleasure to work with. I highly recommend Ivan for seamless alterations and add ons to your site. Ivan will be my go to person in the future!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Ray Agrinzone",
+        "store":  "aksels.com",
+        "rating":  5,
+        "text":  "Fast and professional service.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Katrina",
+        "store":  "theupsystore.com.au, feather.com.au",
+        "rating":  5,
+        "text":  "Excellent job! Thanks Ivan.",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Greg Taube",
+        "store":  "famme.no",
+        "rating":  5,
+        "text":  "Fast as always рџ‘Ќ",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Abhi R",
+        "store":  "www.lenyhavn.com",
+        "rating":  5,
+        "text":  "Great as usual!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "Mario Toscano",
+        "store":  "kalleyflooring.myshopify.com, shop.malbe.co.za",
+        "rating":  5,
+        "text":  "Ivan is quick to respond, quick to help and he is always there for support. Great guys to work with!",
+        "platform":  "Storetasker"
+    },
+    {
+        "name":  "kieran auchombit",
+        "store":  "www.ecigwizard.com, www.oliverskitchen.co.uk",
+        "rating":  5,
+        "text":  "Great communication, fast responses and turn around. I will use again",
+        "platform":  "Storetasker"
+    }
+];
