@@ -31,6 +31,15 @@
     });
   }
 
+  function escapeHtml(value) {
+    return String(value || "")
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+  }
+
   function initCarousel(root) {
     const viewport = root.querySelector("[data-carousel-viewport]");
     const track = root.querySelector("[data-carousel-track]");
@@ -40,12 +49,15 @@
     const prevBtn = root.querySelector("[data-carousel-prev]");
     const nextBtn = root.querySelector("[data-carousel-next]");
     const dotsWrap = root.querySelector("[data-carousel-dots]");
+    const positionEl = root.querySelector("[data-review-position]");
+    const totalEl = root.querySelector("[data-review-total]");
 
     if (!viewport || !track || slides.length === 0) return;
 
     let index = 0;
     let scrolling = false;
     const gap = 16;
+    const showDots = dotsWrap && slides.length <= 12;
 
     function setSlideSizes() {
       const width = Math.round(viewport.clientWidth);
@@ -57,15 +69,20 @@
       return width;
     }
 
-    function stride() {
-      return setSlideSizes() + gap;
-    }
-
     function updateChrome() {
       if (prevBtn) prevBtn.disabled = index <= 0;
       if (nextBtn) nextBtn.disabled = index >= slides.length - 1;
+      if (positionEl) positionEl.textContent = String(index + 1);
+      if (totalEl) totalEl.textContent = String(slides.length);
 
       if (!dotsWrap) return;
+      if (!showDots) {
+        dotsWrap.innerHTML = "";
+        dotsWrap.hidden = true;
+        return;
+      }
+
+      dotsWrap.hidden = false;
       dotsWrap.innerHTML = "";
       slides.forEach(function (_slide, i) {
         const dot = document.createElement("button");
@@ -133,5 +150,55 @@
     updateChrome();
   }
 
-  document.querySelectorAll("[data-carousel]").forEach(initCarousel);
+  function renderReviews(reviews) {
+    const root = document.querySelector("[data-carousel-reviews]");
+    if (!root) return;
+
+    const track = root.querySelector("[data-carousel-track]");
+    const countEl = document.querySelector("[data-review-count]");
+    if (!track) return;
+
+    if (countEl) countEl.textContent = String(reviews.length);
+
+    const html = reviews
+      .map(function (review) {
+        const name = escapeHtml(review.name || "Client");
+        const store = escapeHtml(review.store || "");
+        const text = escapeHtml(review.text || "");
+        const cite = store ? name + " · " + store : name;
+        return (
+          '<li class="carousel__slide">' +
+          '<blockquote class="review">' +
+          "<p>" +
+          text +
+          "</p>" +
+          "<footer><cite>" +
+          cite +
+          "</cite></footer>" +
+          "</blockquote>" +
+          "</li>"
+        );
+      })
+      .join("");
+
+    track.innerHTML = html;
+    initCarousel(root);
+  }
+
+  document.querySelectorAll("[data-carousel]:not([data-carousel-reviews])").forEach(initCarousel);
+
+  fetch("reviews.json")
+    .then(function (response) {
+      if (!response.ok) throw new Error("Failed to load reviews");
+      return response.json();
+    })
+    .then(renderReviews)
+    .catch(function () {
+      const track = document.querySelector("[data-carousel-reviews] [data-carousel-track]");
+      if (track) {
+        track.innerHTML =
+          '<li class="carousel__slide"><blockquote class="review"><p>Reviews are temporarily unavailable.</p></blockquote></li>';
+        initCarousel(document.querySelector("[data-carousel-reviews]"));
+      }
+    });
 })();
