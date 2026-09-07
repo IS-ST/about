@@ -256,10 +256,16 @@ a:focus-visible {
   color: var(--ink-soft);
 }
 
-.about p:last-child {
-  margin: 0;
+.about p {
   max-width: 42rem;
   color: var(--ink-soft);
+}
+
+.about__meta {
+  margin: 1.25rem 0 0;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--line);
+  font-size: 0.98rem;
 }
 
 /* Expertise — typographic list, not cards */
@@ -337,6 +343,93 @@ a:focus-visible {
   font-weight: 600;
 }
 
+/* Work */
+.work__subtitle {
+  margin: 2rem 0 0.75rem;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.2rem;
+  letter-spacing: -0.015em;
+}
+
+.work__subtitle:first-of-type {
+  margin-top: 0.25rem;
+}
+
+.work__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid var(--line);
+}
+
+.work__list li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.35rem 1.5rem;
+  padding: 0.95rem 0;
+  border-bottom: 1px solid var(--line);
+  align-items: baseline;
+}
+
+.work__name {
+  font-weight: 500;
+  color: var(--ink);
+}
+
+.work__when {
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+}
+
+/* Reviews */
+.review {
+  margin: 0;
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--line);
+}
+
+.review:last-of-type {
+  border-bottom: 1px solid var(--line);
+}
+
+.review p {
+  margin: 0;
+  max-width: 42rem;
+  font-family: var(--font-display);
+  font-size: 1.12rem;
+  font-weight: 500;
+  line-height: 1.55;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+
+.review footer {
+  margin-top: 0.9rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1rem;
+  align-items: baseline;
+}
+
+.review cite {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+}
+
+.review__meta {
+  font-size: 0.88rem;
+  color: var(--teal-deep);
+}
+
+.section__lead strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+
 /* Contact */
 .contact {
   background:
@@ -368,6 +461,15 @@ a:focus-visible {
 
 .contact__links a:hover {
   border-bottom-color: currentColor;
+}
+
+.contact__badge {
+  margin: 2rem 0 0;
+}
+
+.contact__badge img {
+  display: block;
+  border: 0;
 }
 
 .site-footer {
