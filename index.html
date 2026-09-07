@@ -30,10 +30,10 @@
     </header>
 
     <main id="top">
-      <section class="hero" aria-labelledby="brand-name">
+      <section class="hero section" aria-labelledby="brand-name">
         <div class="hero__atmosphere" aria-hidden="true"></div>
-        <div class="hero__content">
-          <p class="hero__eyebrow">shopexperts Expert · 5.0 · Novi Sad</p>
+        <div class="section__inner hero__content">
+          <p class="hero__eyebrow">Storetasker &amp; shopexperts Expert · 5.0 · Novi Sad</p>
           <h1 id="brand-name" class="hero__brand">Ivan Seleznev</h1>
           <p class="hero__headline">Senior Shopify Theme Developer</p>
           <p class="hero__support">
@@ -44,6 +44,13 @@
           <div class="hero__ctas">
             <a class="btn btn--primary" href="mailto:drummer605@gmail.com"
               >Email me</a
+            >
+            <a
+              class="btn btn--ghost"
+              href="https://www.storetasker.com/experts/ivan-seleznev"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Storetasker</a
             >
             <a
               class="btn btn--ghost"
@@ -78,9 +85,8 @@
             delivery, clean implementation, and reliable collaboration.
           </p>
           <p class="about__meta">
-            Serving merchants across North America, Europe, and Oceania. Hourly rate
-            $100 USD — quick fixes billed proportionally. Lifetime warranty on my
-            customizations.
+            Hourly rate $100 USD — quick fixes billed proportionally. Lifetime warranty
+            on my customizations.
           </p>
         </div>
       </section>
@@ -118,9 +124,7 @@
             </li>
             <li>
               <span class="expertise__label">App integrations</span>
-              <span class="expertise__desc"
-                >Klaviyo, Judge.me, Shoplift, Love Loyalty, and more</span
-              >
+              <span class="expertise__desc">Klaviyo, Judge.me, and more</span>
             </li>
             <li>
               <span class="expertise__label">Theme platforms</span>
@@ -144,6 +148,13 @@
           <p class="section__lead">
             Case studies and packaged services from
             <a
+              href="https://www.storetasker.com/experts/ivan-seleznev"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Storetasker</a
+            >
+            and
+            <a
               href="https://shopexperts.com/freelancers/ivan-seleznev"
               target="_blank"
               rel="noopener noreferrer"
@@ -151,37 +162,170 @@
             >.
           </p>
 
-          <h3 class="work__subtitle">Case studies</h3>
-          <ul class="work__list">
-            <li>
-              <span class="work__name">2 items bundle</span>
-              <span class="work__when">Nov 2019</span>
-            </li>
-            <li>
-              <span class="work__name">Bundle builder</span>
-              <span class="work__when">May 2023</span>
-            </li>
-            <li>
-              <span class="work__name">Quick add + custom Klaviyo back in stock</span>
-              <span class="work__when">Jul 2025</span>
-            </li>
-          </ul>
+          <div class="carousel" data-carousel>
+            <div class="carousel__head">
+              <h3 class="work__subtitle">Case studies</h3>
+              <div class="carousel__controls">
+                <button
+                  type="button"
+                  class="carousel__btn"
+                  data-carousel-prev
+                  aria-label="Previous case study"
+                >
+                  ‹
+                </button>
+                <button
+                  type="button"
+                  class="carousel__btn"
+                  data-carousel-next
+                  aria-label="Next case study"
+                >
+                  ›
+                </button>
+              </div>
+            </div>
+            <div class="carousel__viewport" data-carousel-viewport>
+              <ul class="carousel__track" data-carousel-track>
+                <li class="carousel__slide">
+                  <a
+                    class="work-card"
+                    href="https://shopexperts.com/stories/2-items-bundle"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="assets/work/case-2-items-bundle.png"
+                      alt="Screenshot from the 2 items bundle case study"
+                      width="1200"
+                      height="750"
+                      loading="lazy"
+                    />
+                    <div class="work-card__body">
+                      <span class="work-card__name">2 items bundle</span>
+                      <span class="work-card__meta">Nov 2019</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="carousel__slide">
+                  <a
+                    class="work-card"
+                    href="https://shopexperts.com/stories/bundle-builder"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="assets/work/case-bundle-builder.png"
+                      alt="Screenshot from the Bundle builder case study"
+                      width="1200"
+                      height="750"
+                      loading="lazy"
+                    />
+                    <div class="work-card__body">
+                      <span class="work-card__name">Bundle builder</span>
+                      <span class="work-card__meta">May 2023</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="carousel__slide">
+                  <a
+                    class="work-card"
+                    href="https://shopexperts.com/stories/quck-add-custom-klaviyo-back-in-stock"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="assets/work/case-quick-add-klaviyo.png"
+                      alt="Screenshot from the Quick add and Klaviyo back in stock case study"
+                      width="1200"
+                      height="750"
+                      loading="lazy"
+                    />
+                    <div class="work-card__body">
+                      <span class="work-card__name"
+                        >Quick add + custom Klaviyo back in stock</span
+                      >
+                      <span class="work-card__meta">Jul 2025</span>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="carousel__dots" data-carousel-dots aria-hidden="true"></div>
+          </div>
 
-          <h3 class="work__subtitle">Packaged services</h3>
-          <ul class="work__list">
-            <li>
-              <span class="work__name">Items / square calculator</span>
-              <span class="work__when">From $400</span>
-            </li>
-            <li>
-              <span class="work__name">Custom Klaviyo back in stock</span>
-              <span class="work__when">From $200</span>
-            </li>
-            <li>
-              <span class="work__name">Custom options / engraving</span>
-              <span class="work__when">From $200</span>
-            </li>
-          </ul>
+          <div class="carousel" data-carousel>
+            <div class="carousel__head">
+              <h3 class="work__subtitle">Packaged services</h3>
+              <div class="carousel__controls">
+                <button
+                  type="button"
+                  class="carousel__btn"
+                  data-carousel-prev
+                  aria-label="Previous packaged service"
+                >
+                  ‹
+                </button>
+                <button
+                  type="button"
+                  class="carousel__btn"
+                  data-carousel-next
+                  aria-label="Next packaged service"
+                >
+                  ›
+                </button>
+              </div>
+            </div>
+            <div class="carousel__viewport" data-carousel-viewport>
+              <ul class="carousel__track" data-carousel-track>
+                <li class="carousel__slide">
+                  <article class="work-card">
+                    <img
+                      src="assets/work/service-items-calculator.png"
+                      alt="Items / square calculator service preview"
+                      width="1200"
+                      height="750"
+                      loading="lazy"
+                    />
+                    <div class="work-card__body">
+                      <span class="work-card__name">Items / square calculator</span>
+                      <span class="work-card__meta">From $400</span>
+                    </div>
+                  </article>
+                </li>
+                <li class="carousel__slide">
+                  <article class="work-card">
+                    <img
+                      src="assets/work/service-klaviyo-bis.png"
+                      alt="Custom Klaviyo back in stock service preview"
+                      width="1200"
+                      height="750"
+                      loading="lazy"
+                    />
+                    <div class="work-card__body">
+                      <span class="work-card__name">Custom Klaviyo back in stock</span>
+                      <span class="work-card__meta">From $200</span>
+                    </div>
+                  </article>
+                </li>
+                <li class="carousel__slide">
+                  <article class="work-card">
+                    <img
+                      src="assets/work/service-custom-options.png"
+                      alt="Custom options and engraving service preview"
+                      width="1200"
+                      height="750"
+                      loading="lazy"
+                    />
+                    <div class="work-card__body">
+                      <span class="work-card__name">Custom options / engraving</span>
+                      <span class="work-card__meta">From $200</span>
+                    </div>
+                  </article>
+                </li>
+              </ul>
+            </div>
+            <div class="carousel__dots" data-carousel-dots aria-hidden="true"></div>
+          </div>
         </div>
       </section>
 
@@ -191,6 +335,13 @@
           <p class="section__lead">
             <strong>5.00</strong> average from 15 reviews on
             <a
+              href="https://www.storetasker.com/experts/ivan-seleznev"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Storetasker</a
+            >
+            /
+            <a
               href="https://shopexperts.com/freelancers/ivan-seleznev"
               target="_blank"
               rel="noopener noreferrer"
@@ -198,41 +349,95 @@
             >.
           </p>
 
-          <blockquote class="review">
-            <p>
-              Ivan has been working with us for many years, and truly feels like a part
-              of our team. In addition to being a great developer, he is very creative
-              in his approach and always finds solutions to deliver, including on some
-              quite complex Shopify projects. He was always super reactive despite the
-              time difference, and remained readily available whenever we had tight
-              deadlines or important launches.
-            </p>
-            <footer>
-              <cite>Michael M. · Maukau</cite>
-              <span class="review__meta">Project value: more than $100,000</span>
-            </footer>
-          </blockquote>
-
-          <blockquote class="review">
-            <p>
-              Very good and efficient, helpful with all information. Would recommend to
-              anyone who needs help with their website.
-            </p>
-            <footer>
-              <cite>Olivia S. · ivyroseuk.com</cite>
-            </footer>
-          </blockquote>
-
-          <blockquote class="review">
-            <p>
-              Ivan was able to execute changes to my product page that I needed. He was
-              really responsive to communication and answered questions well. All in
-              all, very helpful.
-            </p>
-            <footer>
-              <cite>Emily C. · dawndusk.com.au</cite>
-            </footer>
-          </blockquote>
+          <div class="carousel carousel--reviews" data-carousel>
+            <div class="carousel__head">
+              <span class="carousel__label">Client feedback</span>
+              <div class="carousel__controls">
+                <button
+                  type="button"
+                  class="carousel__btn"
+                  data-carousel-prev
+                  aria-label="Previous review"
+                >
+                  ‹
+                </button>
+                <button
+                  type="button"
+                  class="carousel__btn"
+                  data-carousel-next
+                  aria-label="Next review"
+                >
+                  ›
+                </button>
+              </div>
+            </div>
+            <div class="carousel__viewport" data-carousel-viewport>
+              <ul class="carousel__track" data-carousel-track>
+                <li class="carousel__slide">
+                  <blockquote class="review">
+                    <p>
+                      Ivan has been working with us for many years, and truly feels like
+                      a part of our team. In addition to being a great developer, he is
+                      very creative in his approach and always finds solutions to
+                      deliver, including on some quite complex Shopify projects. He was
+                      always super reactive despite the time difference, and remained
+                      readily available whenever we had tight deadlines or important
+                      launches.
+                    </p>
+                    <footer>
+                      <cite>Michael M. · Maukau</cite>
+                      <span class="review__meta"
+                        >Project value: more than $100,000</span
+                      >
+                    </footer>
+                  </blockquote>
+                </li>
+                <li class="carousel__slide">
+                  <blockquote class="review">
+                    <p>
+                      Very good and efficient, helpful with all information. Would
+                      recommend to anyone who needs help with their website.
+                    </p>
+                    <footer>
+                      <cite>Olivia S. · ivyroseuk.com</cite>
+                    </footer>
+                  </blockquote>
+                </li>
+                <li class="carousel__slide">
+                  <blockquote class="review">
+                    <p>
+                      Ivan was able to execute changes to my product page that I needed.
+                      He was really responsive to communication and answered questions
+                      well. All in all, very helpful.
+                    </p>
+                    <footer>
+                      <cite>Emily C. · dawndusk.com.au</cite>
+                    </footer>
+                  </blockquote>
+                </li>
+                <li class="carousel__slide">
+                  <blockquote class="review">
+                    <p>
+                      Really happy with the service, very quick response time and made
+                      all necessary adjustments needed to my store. Would recommend!
+                    </p>
+                    <footer>
+                      <cite>Emily C. · dawndusk.com.au</cite>
+                    </footer>
+                  </blockquote>
+                </li>
+                <li class="carousel__slide">
+                  <blockquote class="review">
+                    <p>SOLID DUDE AS ALWAYS. GOOD WORK.</p>
+                    <footer>
+                      <cite>Devin H. · combatironapparel.com</cite>
+                    </footer>
+                  </blockquote>
+                </li>
+              </ul>
+            </div>
+            <div class="carousel__dots" data-carousel-dots aria-hidden="true"></div>
+          </div>
         </div>
       </section>
 
@@ -298,14 +503,19 @@
           <h2 class="section__title">Let’s build your storefront</h2>
           <p class="section__lead">
             Available for Shopify theme work, rebuilds, and expert engagements via
-            email or
+            email,
+            <a
+              href="https://www.storetasker.com/experts/ivan-seleznev"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Storetasker</a
+            >, or
             <a
               href="https://shopexperts.com/freelancers/ivan-seleznev"
               target="_blank"
               rel="noopener noreferrer"
               >shopexperts</a
-            >
-            (from $500).
+            >.
           </p>
           <div class="contact__actions">
             <a class="btn btn--primary" href="mailto:drummer605@gmail.com"
@@ -314,6 +524,14 @@
             <a class="btn btn--ghost" href="tel:+381628432008">+381 62 843 2008</a>
           </div>
           <ul class="contact__links">
+            <li>
+              <a
+                href="https://www.storetasker.com/experts/ivan-seleznev"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Storetasker profile</a
+              >
+            </li>
             <li>
               <a
                 href="https://shopexperts.com/freelancers/ivan-seleznev"

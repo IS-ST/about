@@ -12,6 +12,7 @@
   --font-body: "Outfit", system-ui, sans-serif;
   --space: clamp(1.25rem, 3vw, 2rem);
   --max: 68rem;
+  --measure: 42rem;
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
 }
 
@@ -38,6 +39,8 @@ body {
 
 img {
   max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 a {
@@ -101,13 +104,45 @@ a:focus-visible {
   color: var(--teal);
 }
 
+/* Sections */
+.section {
+  padding: clamp(3.5rem, 9vh, 6rem) var(--space);
+  border-top: 1px solid var(--line);
+}
+
+.section__inner {
+  max-width: var(--max);
+  margin: 0 auto;
+}
+
+.section__title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(1.85rem, 4vw, 2.5rem);
+  letter-spacing: -0.025em;
+  line-height: 1.15;
+}
+
+.section__lead {
+  margin: 0.85rem 0 1.75rem;
+  max-width: var(--measure);
+  font-size: 1.15rem;
+  color: var(--ink-soft);
+}
+
+.section__lead strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+
 /* Hero */
 .hero {
   position: relative;
   min-height: calc(100vh - 3.5rem);
   display: grid;
   align-items: center;
-  padding: clamp(3rem, 10vh, 6rem) var(--space);
+  border-top: 0;
   overflow: hidden;
   isolation: isolate;
 }
@@ -135,7 +170,7 @@ a:focus-visible {
 }
 
 .hero__content {
-  max-width: 42rem;
+  max-width: var(--max);
 }
 
 .hero__eyebrow {
@@ -168,7 +203,7 @@ a:focus-visible {
 
 .hero__support {
   margin: 1.25rem 0 0;
-  max-width: 34rem;
+  max-width: var(--measure);
   font-size: 1.08rem;
   color: var(--ink-soft);
 }
@@ -229,46 +264,28 @@ a:focus-visible {
   color: var(--teal-deep);
 }
 
-/* Sections */
-.section {
-  padding: clamp(3.5rem, 9vh, 6rem) var(--space);
-  border-top: 1px solid var(--line);
-}
-
-.section__inner {
-  max-width: var(--max);
-  margin: 0 auto;
-}
-
-.section__title {
-  margin: 0;
-  font-family: var(--font-display);
-  font-weight: 600;
-  font-size: clamp(1.85rem, 4vw, 2.5rem);
-  letter-spacing: -0.025em;
-  line-height: 1.15;
-}
-
-.section__lead {
-  margin: 0.85rem 0 1.75rem;
-  max-width: 36rem;
-  font-size: 1.15rem;
-  color: var(--ink-soft);
+/* About — consistent text measure */
+.about .section__inner > * {
+  max-width: var(--measure);
 }
 
 .about p {
-  max-width: 42rem;
+  margin: 0;
   color: var(--ink-soft);
 }
 
+.about .section__lead {
+  margin: 0.85rem 0 1.25rem;
+}
+
 .about__meta {
-  margin: 1.25rem 0 0;
+  margin-top: 1.25rem;
   padding-top: 1.25rem;
   border-top: 1px solid var(--line);
   font-size: 0.98rem;
 }
 
-/* Expertise — typographic list, not cards */
+/* Expertise */
 .expertise__list {
   list-style: none;
   margin: 0;
@@ -343,62 +360,175 @@ a:focus-visible {
   font-weight: 600;
 }
 
-/* Work */
+/* Work / carousels */
 .work__subtitle {
-  margin: 2rem 0 0.75rem;
+  margin: 0;
   font-family: var(--font-display);
   font-weight: 600;
   font-size: 1.2rem;
   letter-spacing: -0.015em;
 }
 
-.work__subtitle:first-of-type {
-  margin-top: 0.25rem;
+.carousel {
+  margin-top: 1.75rem;
 }
 
-.work__list {
+.carousel + .carousel {
+  margin-top: 2.75rem;
+}
+
+.carousel__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.carousel__label {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: var(--ink-soft);
+}
+
+.carousel__controls {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.carousel__btn {
+  width: 2.4rem;
+  height: 2.4rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  background: transparent;
+  color: var(--ink);
+  font-size: 1.35rem;
+  line-height: 1;
+  cursor: pointer;
+  transition:
+    border-color 0.2s var(--ease),
+    color 0.2s var(--ease),
+    background 0.2s var(--ease);
+}
+
+.carousel__btn:hover {
+  border-color: var(--teal);
+  color: var(--teal-deep);
+}
+
+.carousel__btn:focus-visible {
+  outline: 2px solid var(--teal);
+  outline-offset: 2px;
+}
+
+.carousel__btn:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.carousel__viewport {
+  overflow: hidden;
+}
+
+.carousel__track {
   list-style: none;
   margin: 0;
   padding: 0;
-  border-top: 1px solid var(--line);
+  display: flex;
+  gap: 1rem;
+  transition: transform 0.45s var(--ease);
+  will-change: transform;
 }
 
-.work__list li {
+.carousel__slide {
+  flex: 0 0 min(100%, 22rem);
+  min-width: 0;
+}
+
+.carousel--reviews .carousel__slide {
+  flex-basis: min(100%, 34rem);
+}
+
+.carousel__dots {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 0.35rem 1.5rem;
-  padding: 0.95rem 0;
-  border-bottom: 1px solid var(--line);
-  align-items: baseline;
+  gap: 0.4rem;
+  margin-top: 1rem;
 }
 
-.work__name {
+.carousel__dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: var(--line);
+  cursor: pointer;
+}
+
+.carousel__dot.is-active {
+  background: var(--teal);
+}
+
+.work-card {
+  display: block;
+  height: 100%;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.45);
+  overflow: hidden;
+  transition: border-color 0.25s var(--ease), transform 0.25s var(--ease);
+}
+
+a.work-card:hover {
+  border-color: var(--teal);
+  transform: translateY(-2px);
+  color: inherit;
+}
+
+.work-card img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  background: var(--paper-deep);
+}
+
+.work-card__body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 0.95rem 1rem 1.1rem;
+}
+
+.work-card__name {
   font-weight: 500;
   color: var(--ink);
 }
 
-.work__when {
-  font-size: 0.95rem;
+.work-card__meta {
+  font-size: 0.92rem;
   color: var(--ink-soft);
 }
 
 /* Reviews */
 .review {
   margin: 0;
-  padding: 1.5rem 0;
-  border-top: 1px solid var(--line);
-}
-
-.review:last-of-type {
-  border-bottom: 1px solid var(--line);
+  height: 100%;
+  padding: 1.35rem 1.25rem;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.35);
 }
 
 .review p {
   margin: 0;
-  max-width: 42rem;
   font-family: var(--font-display);
-  font-size: 1.12rem;
+  font-size: 1.08rem;
   font-weight: 500;
   line-height: 1.55;
   letter-spacing: -0.01em;
@@ -423,11 +553,6 @@ a:focus-visible {
 .review__meta {
   font-size: 0.88rem;
   color: var(--teal-deep);
-}
-
-.section__lead strong {
-  color: var(--ink);
-  font-weight: 600;
 }
 
 /* Contact */
@@ -551,13 +676,15 @@ a:focus-visible {
   .hero__headline,
   .hero__support,
   .hero__ctas,
-  .reveal {
+  .reveal,
+  .carousel__track {
     opacity: 1;
     transform: none;
     transition: none;
   }
 
-  .btn:hover {
+  .btn:hover,
+  a.work-card:hover {
     transform: none;
   }
 }
@@ -579,7 +706,10 @@ a:focus-visible {
 
   .hero {
     min-height: auto;
-    padding-top: 3.5rem;
-    padding-bottom: 4rem;
+  }
+
+  .carousel__slide,
+  .carousel--reviews .carousel__slide {
+    flex-basis: 100%;
   }
 }
